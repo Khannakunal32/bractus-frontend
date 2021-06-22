@@ -411,7 +411,7 @@ class AvailableCourses extends Component {
                     onClick={() =>
                       this.AddToCart(
                         this.state.courses[0].price,
-                        this.state.coursesp[0].courseId
+                        this.state.courses[0].courseId
                       )
                     }
                   >
