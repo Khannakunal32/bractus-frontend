@@ -10,6 +10,7 @@ import cashback from '../Assets/Images/cashback.png'
 import logOut from '../Assets/Images/logOut.png'
 import presentation from '../Assets/Images/presentation.png'
 import loginIMage from '../Assets/Images/login.png'
+import mentorship from '../Assets/Images/mentorship.png'
 import axios from 'axios';
 import { Table} from 'react-bootstrap';
 class Dashboard extends Component {
@@ -220,7 +221,7 @@ axios
        <a href="/UpdateProfile">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={settingIcon} className="profile-page-btn"></img>Update Profile</span></a>
        <a href="/submitBankDetails">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={loginIMage} className="profile-page-btn"></img>Update Bank Details</span></a>
       
-       {this.state.paymentStatus=="Paid"? <a href="/kunalMentorship">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img alt="kunalMentorship" className="profile-page-btn"></img>Kunal Khanna's</span></a>
+       {this.state.paymentStatus=="Paid"? <a href="/kunalMentorship">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={mentorship} alt="Mentorship" className="profile-page-btn"></img>Kunal Khanna's</span></a>
       :null}
        
        {localStorage.getItem('isLoggedIn')=='true'?<span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}><img src={logOut} id="logOutBtn" onClick={()=>{this.logoutFuncton()}}></img>LogOut</span>:null}   
