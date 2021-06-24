@@ -28,6 +28,7 @@ import posts from "./screens/posts";
 import createCourse from "./screens/CreateCourse";
 import AvailableCourses from "./screens/availableCourse";
 import kunalMentorship from "./screens/kunalMentorship";
+import leaderBoard from "./screens/leaderBoard";
 
 function App(props) {
   return (
@@ -116,7 +117,7 @@ function App(props) {
 
               <a href="/comingsoon">Events</a>
               <a href="/Packages">Services</a>
-              <a href="/comingsoon">Leaderboard</a>
+              <a href="/leaderBoard">Leaderboard</a>
               <a href="/signin">My Account</a>
               {/* <a href="/cart">Cart</a>
             <a href="/signin">Sign In</a> */}
@@ -135,7 +136,7 @@ function App(props) {
             <a href="/aboutus">Know Us</a>
             <a href="/comingsoon">Events</a>
 
-            <a href="/comingsoon">Leaderboard</a>
+            <a href="/leaderBoard">Leaderboard</a>
 
             <a href="/Packages">
               <img
@@ -168,6 +169,7 @@ function App(props) {
           
           <Route path="/submitBankDetails" component={submitBankDetails}></Route>
           <Route path="/Downline" component={downline}></Route>
+          <Route path="/leaderBoard" component={leaderBoard}></Route>
           {localStorage.getItem("isLoggedIn") == "true" ? (
             <Route path="/signin" component={Dashboard} exact></Route>
           ) : (
