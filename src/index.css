@@ -494,6 +494,13 @@ footer div ul:last-child{
   width: 45%;
   height: 60%;
 }
+.mentorship-teaser{
+  background-color: #040c239a;
+  text-align: left;
+  width: 35%;
+  height: 90%;
+  min-height: 280px;
+}
 .learn-more-btn{
   width: 200px;
  
