@@ -713,3 +713,10 @@ z-index: 1;
 
 }
 
+.mentorship-teaser{
+  background-color: #040c239a;
+  text-align: left;
+  width: 35%;
+  height: 90%;
+  min-height: 280px;
+}
