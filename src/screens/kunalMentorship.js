@@ -177,18 +177,65 @@ export default function kunalMentorship() {
               title="Recipe of success -2"
             >
               {" "}
-
               Recipe of Success 2- Sonu sharma
             </a>{" "}
           </li>
 
           <li>
             {" "}
-            Now work on profiling. Revise old notes and make a video of your skill.
+            Now work on profiling. Revise old notes and make a video of your
+            skill.
           </li>
         </ol>{" "}
       </div>
-      <h1>Note: Please make sure to watch all video and complete the task to earn.</h1>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+
+      <h1>Task:Day 3</h1>
+      <div style={{ maxWidth: "35%", textAlign: "left", lineHeight: "25px" }}>
+        <p>Task for the day 3 is folowing:</p>
+        <li>
+          Watch Skillset - Invitation Hot-Warm <br></br>
+          <a
+            href="https://youtu.be/9JUweIHKK8I"
+            title="Skillset Invitation Hot-Warm"
+          >
+            <img
+              src="https://i9.ytimg.com/vi/nKomhVZC9As/mq3.jpg?sqp=CKyy14YG&rs=AOn4CLDdsJEqSiXUxJqR9eh6YrvdUhcJeQ"
+              alt="Skillset - Invitation Hot-Warm"
+            />
+          </a>
+        </li>
+        <ol>
+          <li>
+            Do a demo call with your mentor to approach your first friend from
+            Hot warm market.
+          </li>
+
+          <li>Decide which technique to use on which friend.</li>
+
+          <li> Call 5 people from hot warm market and take help of your.</li>
+          <li>
+            {" "}
+            Finalize the meeting with your mentor and your friend at particular
+            time repectively.
+          </li>
+          <li>
+            Watch the video given. It will teach you how to face rejection and
+            is very imporatant for this journey.<br></br>
+            <a
+              href="https://www.youtube.com/watch?v=4Fwnunq3EAg"
+              title="Deal with 'NO' in sales"
+            >
+              Deal with "NO" in sales - Sonu Sharma
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
     </div>
   );
 }
