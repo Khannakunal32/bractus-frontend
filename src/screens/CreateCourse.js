@@ -48,7 +48,7 @@ class createCourse extends Component {
 // console.log(res.data.message.length,"dsfgdhg")
    let mycourseNum=res.data.message.length
    if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && mycourseNum<4 ){
-    if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<3000) ){
+    if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<=3000) ){
           
       axios
       .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
@@ -81,7 +81,7 @@ class createCourse extends Component {
        
       
        
-  }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<5000) ){
+  }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<=5000) ){
     axios
     .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
       title: title,
@@ -108,7 +108,7 @@ class createCourse extends Component {
       alert(error)
     })
   }
-  else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<7000 ){
+  else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<=7000 ){
     axios
     .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
       title: title,
@@ -135,7 +135,7 @@ class createCourse extends Component {
       alert(error)
     })
   }
-  else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<30000){
+  else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<=30000){
     axios
     .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
       title: title,
@@ -169,7 +169,7 @@ class createCourse extends Component {
   }
      }
      else if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && mycourseNum<3 ){
-      if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<3000) ){
+      if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<=3000) ){
           
         axios
         .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
@@ -190,7 +190,7 @@ class createCourse extends Component {
             this.setState({ userExist: true })
             alert('Mentorship Listed Successfully')
             window.location.href="/Dashboard"
-          }
+          }   
         })
         .catch(function (error) {
           console.log(error)
@@ -202,7 +202,7 @@ class createCourse extends Component {
          
         
          
-    }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<5000) ){
+    }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<=5000) ){
       axios
       .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
         title: title,
@@ -229,7 +229,7 @@ class createCourse extends Component {
         alert(error)
       })
     }
-    else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<7000 ){
+    else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<=7000 ){
       axios
       .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
         title: title,
@@ -256,7 +256,7 @@ class createCourse extends Component {
         alert(error)
       })
     }
-    else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<30000){
+    else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<=30000){
       axios
       .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
         title: title,
@@ -290,7 +290,7 @@ class createCourse extends Component {
     }
             }
             else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && mycourseNum<2 ){
-              if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<3000) ){
+              if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<=3000) ){
           
                 axios
                 .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
@@ -323,7 +323,7 @@ class createCourse extends Component {
                  
                 
                  
-            }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<5000) ){
+            }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<=5000) ){
               axios
               .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
                 title: title,
@@ -350,7 +350,7 @@ class createCourse extends Component {
                 alert(error)
               })
             }
-            else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<7000 ){
+            else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<=7000 ){
               axios
               .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
                 title: title,
@@ -377,7 +377,7 @@ class createCourse extends Component {
                 alert(error)
               })
             }
-            else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<30000){
+            else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<=30000){
               axios
               .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
                 title: title,
@@ -411,7 +411,7 @@ class createCourse extends Component {
             }
            }
            else if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && mycourseNum<1 ){
-            if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<3000) ){
+            if((Degreepackage=='ONE°' || Degreepackage=="DEGREE 1") && (priceNum<=3000) ){
           
               axios
               .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
@@ -444,7 +444,7 @@ class createCourse extends Component {
                
               
                
-          }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<5000) ){
+          }else if((Degreepackage=='TWO°' || Degreepackage=="DEGREE 2") && (priceNum<=5000) ){
             axios
             .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
               title: title,
@@ -471,7 +471,7 @@ class createCourse extends Component {
               alert(error)
             })
           }
-          else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<7000 ){
+          else  if((Degreepackage=='THREE°' || Degreepackage=="DEGREE 3") && priceNum<=7000 ){
             axios
             .post(` https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
               title: title,
@@ -498,7 +498,7 @@ class createCourse extends Component {
               alert(error)
             })
           }
-          else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<30000){
+          else  if((Degreepackage=='FOUR°' || Degreepackage=="DEGREE 4") && priceNum<=30000){
             axios
             .post(`https://testapis.megahoot.net/api/users/MentorCourseDetail`, {
               title: title,
