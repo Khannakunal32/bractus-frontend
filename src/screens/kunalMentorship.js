@@ -49,28 +49,31 @@ import React from "react";
 
 export default function kunalMentorship() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        maxWidth: "100vw",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    // <div
+    //   style={{
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     maxWidth: "100",
+    //     alignItems: "center",
+    //     justifyContent: "center",
+    //   }}>
+    
+    <div style={{ margin: 20 }}>
       <h1>Kunal Khanna's Mentorship</h1>
 
       <iframe
-        className="mentorship-teaser"
+        width="450"
+        height="225"
         src="https://www.youtube.com/embed/cM_5GI1hyac"
-        title="Kunal's Mentorship"
+        title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
 
       <h1>Description</h1>
-      <div style={{ maxWidth: "35%", textAlign: "left", lineHeight: "25px" }}>
+      <div style={{ display: "flex",
+            flexDirection: "column", maxWidth: "", textAlign: "left", lineHeight: "25px" }}>
         <p>
           This is Kunal Khanna's personal mentorship to learn Marketing and
           kick-start your business.<br></br>
@@ -83,32 +86,36 @@ export default function kunalMentorship() {
         </p>
       </div>
       <h1>Task:Day 1</h1>
-      <div style={{ maxWidth: "35%", textAlign: "left", lineHeight: "25px" }}>
-        <p>Task for the day 1 is folowing:</p>
-        <li>
-          Watch Mindset Part 1 <br></br>
-          <a href="https://youtu.be/meejCpKK830" title="Mindset Part 1">
-            <img
-              src="https://i9.ytimg.com/vi/meejCpKK830/mq1.jpg?sqp=CMiY14YG&rs=AOn4CLDEeX7BvWOdbuKcZEfYYMXDxETEQw"
-              alt="Mindset Part 1"
-            />
-          </a>
-        </li>
-        <li>
-          {" "}
-          Now watch mindset Part 2 <br></br>
-          <a href="https://youtu.be/KBoDrqFB7GY" title="Mindset Part 2">
-            <img
-              src="https://i9.ytimg.com/vi/KBoDrqFB7GY/mq2.jpg?sqp=CKyy14YG&rs=AOn4CLAgNSRu3UJxg8NuJ3IMP9aO8EJJ7A"
-              alt="Mindset Part 2"
-            />
-          </a>
-        </li>
+      <div style={{ display: "flex",
+            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+        <p>Task for the day 1 is following:</p>
         <ol>
+          {" "}
+          <li>
+            Watch Mindset Part 1 <br></br>
+            <a href="https://youtu.be/meejCpKK830" title="Mindset Part 1">
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi/meejCpKK830/mq1.jpg?sqp=CLzs5oYG&rs=AOn4CLCd2dtw3HocxM2550pDiF9Nf58eZw"
+                alt="Mindset Part 1"
+              />
+            </a>
+          </li>
+          <li>
+            {" "}
+            Now watch mindset Part 2 <br></br>
+            <a href="https://youtu.be/KBoDrqFB7GY" title="Mindset Part 2">
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi/9JUweIHKK8I/mqdefault.jpg?sqp=CLzs5oYG&rs=AOn4CLDFv7xoboKG5Ck3z-fTagWOMoTZTA"
+                alt="Mindset Part 2"
+              />
+            </a>
+          </li>
           <li>Make sure you have complete notes </li>
-
           <li> Apply all the steps in video without missing.</li>
-
           <li> Contact your mentor to start.</li>
           <li>
             {" "}
@@ -125,18 +132,22 @@ export default function kunalMentorship() {
       <h1>Note: Please make sure to obey rules</h1>
 
       <h1>Task:Day 2</h1>
-      <div style={{ maxWidth: "35%", textAlign: "left", lineHeight: "25px" }}>
-        <p>Task for the day 2 is folowing:</p>
-        <li>
-          Watch Skillset - Profiling <br></br>
-          <a href="https://youtu.be/nKomhVZC9As" title="Skillset Profiling">
-            <img
-              src="https://i9.ytimg.com/vi/nKomhVZC9As/mq3.jpg?sqp=CKyy14YG&rs=AOn4CLDdsJEqSiXUxJqR9eh6YrvdUhcJeQ"
-              alt="Skillset - Profiling"
-            />
-          </a>
-        </li>
-        {/* <li>
+      <div style={{ display: "flex",
+            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+        <p>Task for the day 2 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Profiling <br></br>
+            <a href="https://youtu.be/nKomhVZC9As" title="Skillset Profiling">
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi_webp/nKomhVZC9As/mqdefault.webp?sqp=CLzs5oYG&rs=AOn4CLCJvo_0paHlKiYiUEHYLohA9leTuw"
+                alt="Skillset - Profiling"
+              />
+            </a>
+          </li>
+          {/* <li>
           {" "}
           Now watch mindset Part 2 <br></br>
           <a href="https://youtu.be/KBoDrqFB7GY" title="Mindset Part 2">
@@ -146,7 +157,7 @@ export default function kunalMentorship() {
             />
           </a>
         </li> */}
-        <ol>
+
           <li>
             Create a private profile. Follow your upline and Kunal Khanna.{" "}
           </li>
@@ -160,25 +171,34 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. Its very funny and will teach you story
             bulding.<br></br>
-            <a
-              href="https://www.youtube.com/watch?v=WPcbGq2Wzpg"
-              title="Recipe of success -1"
-            >
-              {" "}
-              Recipe of Success 1- Sonu sharma
-            </a>{" "}
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/WPcbGq2Wzpg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>{" "}
+            <br></br>
+            Recipe of Success 1- Sonu sharma
           </li>
           {/* <a href="https://youtu.be/KBoDrqFB7GY" title="Mindset Part 2">  </a> */}
 
           <li>
             It was funny right. The next video is even better.<br></br>
-            <a
-              href="https://www.youtube.com/watch?v=p2ruFPzrMJ4"
-              title="Recipe of success -2"
-            >
-              {" "}
-              Recipe of Success 2- Sonu sharma
-            </a>{" "}
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/p2ruFPzrMJ4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>{" "}
+            <br></br>
+            Recipe of Success 2- Sonu sharma <br></br>( Press "Watch On Youtube"
+            to start the above video)
           </li>
 
           <li>
@@ -193,21 +213,25 @@ export default function kunalMentorship() {
       </h1>
 
       <h1>Task:Day 3</h1>
-      <div style={{ maxWidth: "35%", textAlign: "left", lineHeight: "25px" }}>
-        <p>Task for the day 3 is folowing:</p>
-        <li>
-          Watch Skillset - Invitation Hot-Warm <br></br>
-          <a
-            href="https://youtu.be/9JUweIHKK8I"
-            title="Skillset Invitation Hot-Warm"
-          >
-            <img
-              src="https://i9.ytimg.com/vi/nKomhVZC9As/mq3.jpg?sqp=CKyy14YG&rs=AOn4CLDdsJEqSiXUxJqR9eh6YrvdUhcJeQ"
-              alt="Skillset - Invitation Hot-Warm"
-            />
-          </a>
-        </li>
+      <div style={{ display: "flex",
+            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+        <p>Task for the day 3 is following:</p>
         <ol>
+          <li>
+            Watch Skillset - Invitation Hot-Warm <br></br>
+            <a
+              href="https://youtu.be/9JUweIHKK8I"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi/9JUweIHKK8I/mqdefault.jpg?sqp=CLzs5oYG&rs=AOn4CLDFv7xoboKG5Ck3z-fTagWOMoTZTA"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
+          </li>
+
           <li>
             Do a demo call with your mentor to approach your first friend from
             Hot warm market.
@@ -224,12 +248,66 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. It will teach you how to face rejection and
             is very imporatant for this journey.<br></br>
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/4Fwnunq3EAg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>{" "}
+            <br></br>
+            Deal with "NO" in sales - Sonu Sharma <br></br> (Press "Watch On
+            Youtube" to start the above video)
+          </li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+      <h1>Task:Day 4</h1>
+      <div style={{ display: "flex",
+            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+        <p>Task for the day 4 is following:</p>
+        <ol>
+          {" "}
+          <li>
+            Watch Skillset - Invitation Hot-Warm <br></br>
             <a
-              href="https://www.youtube.com/watch?v=4Fwnunq3EAg"
-              title="Deal with 'NO' in sales"
+              href="https://youtu.be/O1PSVrOT6Do"
+              title="Skillset Pre-Immuning Hot-Warm"
             >
-              Deal with "NO" in sales - Sonu Sharma
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi/O1PSVrOT6Do/mq2.jpg?sqp=CMT65oYG&rs=AOn4CLDllzg0GJmxFPsX-86-Ha42PvdpFw"
+                alt="Skillset - Pre-Immuning Hot-Warm"
+              />
             </a>
+          </li>
+          <li>Start pre-immuning your friends whom you've called before.</li>
+          <li>
+            Call more hot-warm friends and start scheduling the buiness webinars
+            for them.
+          </li>
+          <li>
+            {" "}
+            Call 5 people from hot warm market and take help of your Mentor.
+          </li>
+          <li>
+            Watch the video given. It will teach you how to face rejection and
+            is very imporatant for this journey.<br></br>
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/xRq-J-WjB8A"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            100% Sucessfull formuala - Pushkar Raj{" "}
           </li>
         </ol>
       </div>
