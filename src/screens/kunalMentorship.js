@@ -46,6 +46,8 @@ export default function kunalMentorship() {
 }
 */
 import React from "react";
+import "../kunal.css";
+import zoom from '../Assets/Images/zoom.png'
 
 export default function kunalMentorship() {
   return (
@@ -57,8 +59,10 @@ export default function kunalMentorship() {
     //     alignItems: "center",
     //     justifyContent: "center",
     //   }}>
-    
+  
+
     <div style={{ margin: 20 }}>
+      
       <h1>Kunal Khanna's Mentorship</h1>
 
       <iframe
@@ -72,8 +76,15 @@ export default function kunalMentorship() {
       ></iframe>
 
       <h1>Description</h1>
-      <div style={{ display: "flex",
-            flexDirection: "column", maxWidth: "", textAlign: "left", lineHeight: "25px" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "",
+          textAlign: "left",
+          lineHeight: "25px",
+        }}
+      >
         <p>
           This is Kunal Khanna's personal mentorship to learn Marketing and
           kick-start your business.<br></br>
@@ -85,9 +96,27 @@ export default function kunalMentorship() {
           with you.
         </p>
       </div>
-      <h1>Task:Day 1</h1>
-      <div style={{ display: "flex",
-            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 1</h1>{" "}
+        </div>
         <p>Task for the day 1 is following:</p>
         <ol>
           {" "}
@@ -97,7 +126,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i9.ytimg.com/vi/meejCpKK830/mq1.jpg?sqp=CLzs5oYG&rs=AOn4CLCd2dtw3HocxM2550pDiF9Nf58eZw"
+                src={zoom}
                 alt="Mindset Part 1"
               />
             </a>
@@ -109,7 +138,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i9.ytimg.com/vi/9JUweIHKK8I/mqdefault.jpg?sqp=CLzs5oYG&rs=AOn4CLDFv7xoboKG5Ck3z-fTagWOMoTZTA"
+                src={zoom}
                 alt="Mindset Part 2"
               />
             </a>
@@ -131,9 +160,26 @@ export default function kunalMentorship() {
       </div>
       <h1>Note: Please make sure to obey rules</h1>
 
-      <h1>Task:Day 2</h1>
-      <div style={{ display: "flex",
-            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 2</h1>{" "}
+        </div>
         <p>Task for the day 2 is following:</p>
         <ol>
           <li>
@@ -142,7 +188,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i9.ytimg.com/vi_webp/nKomhVZC9As/mqdefault.webp?sqp=CLzs5oYG&rs=AOn4CLCJvo_0paHlKiYiUEHYLohA9leTuw"
+                src={zoom}
                 alt="Skillset - Profiling"
               />
             </a>
@@ -212,9 +258,26 @@ export default function kunalMentorship() {
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
 
-      <h1>Task:Day 3</h1>
-      <div style={{ display: "flex",
-            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 3</h1>{" "}
+        </div>
         <p>Task for the day 3 is following:</p>
         <ol>
           <li>
@@ -226,7 +289,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i9.ytimg.com/vi/9JUweIHKK8I/mqdefault.jpg?sqp=CLzs5oYG&rs=AOn4CLDFv7xoboKG5Ck3z-fTagWOMoTZTA"
+                src={zoom}
                 alt="Skillset - Invitation Hot-Warm"
               />
             </a>
@@ -266,9 +329,28 @@ export default function kunalMentorship() {
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
-      <h1>Task:Day 4</h1>
-      <div style={{ display: "flex",
-            flexDirection: "column", maxWidth: "flex", textAlign: "left", lineHeight: "25px" }}>
+
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 4</h1>{" "}
+        </div>
+
         <p>Task for the day 4 is following:</p>
         <ol>
           {" "}
@@ -281,7 +363,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i9.ytimg.com/vi/O1PSVrOT6Do/mq2.jpg?sqp=CMT65oYG&rs=AOn4CLDllzg0GJmxFPsX-86-Ha42PvdpFw"
+                src={zoom}
                 alt="Skillset - Pre-Immuning Hot-Warm"
               />
             </a>
@@ -307,6 +389,7 @@ export default function kunalMentorship() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+            <br></br>
             100% Sucessfull formuala - Pushkar Raj{" "}
           </li>
         </ol>
@@ -314,6 +397,296 @@ export default function kunalMentorship() {
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
+      {/* https://drive.google.com/file/d/1K5KQpY6raMKfrszas5OCK3JOAe3GTJ0y/view?usp=sharing */}
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 5</h1>{" "}
+        </div>
+        <p>Task for the day 5 is following:</p>
+        <ol className="li" >
+          <li>
+            Today watch this content first. <br></br>
+            <br></br>
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/6gAXOTIu6DE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+
+          <li >
+            Above is good , now watch this amazing session below.<br></br>
+            <iframe
+              width="400"
+              height="200"
+              src="https://www.youtube.com/embed/NeGWwIxyKKQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+           Follow sandeep maheshwari, Pushkar Raj Thakur, Dr Vivek Bindra and watch their content regularly.
+          </li>
+          <li>
+            
+            Revise all previous content.
+          </li>
+          <li>Work on your instagram and make it attractive. Take help from mentor.</li>
+          <li>Co-ordinate with your mentor and ask them how to apply these knowledge.</li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+
+      <hr></hr>
+
+{/* <div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    maxWidth: "flex",
+    textAlign: "left",
+    lineHeight: "25px",
+    paddingTop: "25px",
+    paddingbottom: "50px",
+  }}
+>
+  <div
+    style={{
+      textAlign: "center",
+    }}
+  > */}
+    <h1>Day 6</h1>{" "}
+  {/* </div>
+  <p>Task for the day 6 is following:</p>
+  <ol>
+    <li>
+      Watch Skillset - Relation Building 1 <br></br>
+      <a
+        href="https://youtu.be/yWLilnwar-I"
+        title="Skillset - Relation Building 1"
+      >
+        <img
+          width="400"
+          height="200"
+          src="https://i9.ytimg.com/vi_webp/cM_5GI1hyac/mqdefault.webp?v=607ffdd4&sqp=CPSm7IYG&rs=AOn4CLCj9pLTYg9j8rtj8J8iArqw3OUyLw"
+          alt="Skillset - Relation Building 1"
+        />
+      </a>
+    </li>
+    <li>
+      Listen to below audio now. <br></br>
+      <iframe
+        frameborder="0"
+        width="500"
+        height="100"
+        title="kal"
+        src="https://drive.google.com/file/d/1K5KQpY6raMKfrszas5OCK3JOAe3GTJ0y/preview?usp=sharing"
+      ></iframe>
+    </li>
+    <li>Finalize your profiling as best as possible.</li>
+    <li>
+      Use hot warm list 5 people more.
+    </li>
+    <li>
+    Make your instagram profile public.
+    </li>
+  
+  </ol>
+</div>
+<h1>
+  Note: Please make sure to watch all video and complete the task to earn.
+</h1> */}
+
+    <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 7</h1>{" "}
+        </div>
+        <p>Task for the day 7 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Relation Building 1 <br></br>
+            <a
+              href="https://youtu.be/yWLilnwar-I"
+              title="Skillset - Relation Building 1"
+            >
+              <img
+                width="400"
+                height="200"
+                src={zoom}
+                alt="Skillset - Relation Building 1"
+              />
+            </a>
+          </li>
+          <li>
+            Listen to below audio now. <br></br>
+            <iframe
+              frameborder="0"
+              width="500"
+              height="100"
+              title="kal"
+              src="https://drive.google.com/file/d/1K5KQpY6raMKfrszas5OCK3JOAe3GTJ0y/preview?usp=sharing"
+            ></iframe>
+          </li>
+          <li>Finalize your profiling as best as possible.</li>
+          <li>
+            Use hot warm list 5 people more.
+          </li>
+          <li>
+          Make your instagram profile public.
+          </li>
+        
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 8</h1>{" "}
+        </div>
+        <p>Task for the day 8 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Relation Building 2 <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Relation Building 2"
+            >
+              <img
+                width="400"
+                height="200"
+                src={zoom}
+                alt="Skillset - Relation Building 2"
+              />
+            </a>
+          </li>
+         
+          <li>Start pre-immuning your friends whom you've called before.</li>
+          <li>
+            Call more hot-warm friends and start scheduling the buiness webinars
+            for them.
+          </li>
+          <li>
+           
+            Call 5 people from hot warm market and take help of your Mentor.
+          </li>
+      
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+
+      <hr></hr>
+
+      {/* <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 8</h1>{" "}
+        </div>
+        <p>Task for the day 8 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Invitation Hot-Warm <br></br>
+            <a
+              href="https://youtu.be/O1PSVrOT6Do"
+              title="Skillset Pre-Immuning Hot-Warm"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://i9.ytimg.com/vi_webp/cM_5GI1hyac/mqdefault.webp?v=607ffdd4&sqp=CPSm7IYG&rs=AOn4CLCj9pLTYg9j8rtj8J8iArqw3OUyLw"
+                alt="Skillset - Pre-Immuning Hot-Warm"
+              />
+            </a>
+          </li>
+         
+          <li>Start pre-immuning your friends whom you've called before.</li>
+          <li>
+            Call more hot-warm friends and start scheduling the buiness webinars
+            for them.
+          </li>
+          <li>
+            {" "}
+            Call 5 people from hot warm market and take help of your Mentor.
+          </li>
+        
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1> */}
     </div>
+    
   );
 }
