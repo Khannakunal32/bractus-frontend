@@ -46,9 +46,9 @@ export default function kunalMentorship() {
 }
 */
 import React from "react";
-import "../kunal.css";
-import zoom from '../Assets/Images/zoom.png'
 
+import zoom from '../Assets/Images/zoom.png'
+import "../kunal.css";
 export default function kunalMentorship() {
   return (
     // <div
@@ -61,7 +61,7 @@ export default function kunalMentorship() {
     //   }}>
   
 
-    <div style={{ margin: 20 }}>
+    <div style={{ margin: 20 }} className="kstyle kstyle1" >
       
       <h1>Kunal Khanna's Mentorship</h1>
 
@@ -85,7 +85,7 @@ export default function kunalMentorship() {
           lineHeight: "25px",
         }}
       >
-        <p>
+        <p style={{fontSize: "1.5rem"}}>
           This is Kunal Khanna's personal mentorship to learn Marketing and
           kick-start your business.<br></br>
           This course will provide you with one of the best marketing knowledge
