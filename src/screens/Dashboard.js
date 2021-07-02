@@ -11,6 +11,8 @@ import logOut from '../Assets/Images/logOut.png'
 import presentation from '../Assets/Images/presentation.png'
 import loginIMage from '../Assets/Images/login.png'
 import mentorship from '../Assets/Images/mentorship.png'
+import subscribe from '../Assets/Images/subscribe.png'
+
 import axios from 'axios';
 import { Table} from 'react-bootstrap';
 class Dashboard extends Component {
@@ -216,7 +218,9 @@ axios
 
        <a href="/Downline"><span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}>  <img src={team} className="profile-page-btn"></img>Downline</span></a>
        <a href="/publishBlog">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={blog} className="profile-page-btn"></img>Blogs</span></a>
-       
+       {localStorage.getItem('isLoggedIn')=='true'? <a href="/RenewSubscription">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={subscribe} className="profile-page-btn"></img>Renew Subscription</span></a>
+     :null}   
+      
        <a href="/CreateCourse">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={presentation} className="profile-page-btn"></img>Create Mentorship</span></a>
        <a href="/UpdateProfile">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={settingIcon} className="profile-page-btn"></img>Update Profile</span></a>
        <a href="/submitBankDetails">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={loginIMage} className="profile-page-btn"></img>Update Bank Details</span></a>
