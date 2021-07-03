@@ -20,14 +20,17 @@ class createCourse extends Component {
     loading: false,
     userExist: true,
     Degreepackage:'',
-    Duration:""
+    Duration:"",
+    loading:false
    
   }
+
+  
 
 
 
   createCourse = () => {
-
+          this.setState({loading:true})
 
     const {
       title,
@@ -535,8 +538,12 @@ class createCourse extends Component {
          }
 
          })
-         .catch((error)=>{
+         .then(()=>{
+           this.setState({loading:false})
+         })
 
+         .catch((error)=>{
+          this.setState({loading:false})
          })
 
     
@@ -576,8 +583,9 @@ componentDidMount=()=>{
 
   render() {
     return (
-      <div className="login-screen" style={{ backgroundImage: `url(${presentation})`,backgroundSize: "cover",}}>
-        <div className="login-form text-center" style={{backgroundColor:'#0e72eb31'}}  >
+      
+     <div>
+ <div className="login-screen" style={{ backgroundImage: `url(${presentation})`,backgroundSize: "cover",}}> <div className="login-form text-center" style={{backgroundColor:'#0e72eb31'}}  >
         <>
               <h1 style={{color:'black',fontSize:'2.5rem',fontWeight:'bold'}}>Create Your Own Mentorship</h1>
               {/* <img src={presentation} style={{width:'150px',backgroundColor:'#040c23',borderRadius:'50%'}}  alt="Signup"/>
@@ -649,7 +657,7 @@ componentDidMount=()=>{
               </label>
              
             
-            
+              {!this.state.loading? 
 
 
               <button className="primary-button" 
@@ -657,12 +665,16 @@ componentDidMount=()=>{
               >
                 Create Membership
               </button>
+  :<div class="loader"></div>
+}
              
             </>
         
         
         </div>
-     
+      </div>
+    
+       
       </div>
    
    

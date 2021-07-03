@@ -26,7 +26,8 @@ class Signin extends Component {
     Phone:'',
     SponsorId:'',
     isSponsorIdExist:'',
-    marketerId:''
+    marketerId:'',
+    loading:false
   }
 
 
@@ -37,6 +38,7 @@ class Signin extends Component {
     // const { setCurrentUser } = this.props
     // setCurrentUser(null, false)
     // localStorage.removeItem('token')
+    this.setState({loading:true})
     const { email, password } = this.state
     axios
       .post(` https://testapis.megahoot.net/api/users/login`, {
@@ -68,13 +70,20 @@ class Signin extends Component {
           // this.loaderDeactive()
         }
       })
+      .then(()=>{
+        this.setState({loading:false})
+      })
+   
+   
       .catch(function (error) {
+        this.setState({loading:false})
         console.log(error)
         alert('Invalid User Password')
       })
   }
 
   handleSignUp = () => {
+    this.setState({loading:true})
     const {
       username,
       firstName,
@@ -176,6 +185,13 @@ if(payData=="Paid"){
  alert('Invalid SponsorId')
 }
     })
+    .then(()=>{
+      this.setState({loading:false})
+    })
+    .catch((err)=>{
+      this.setState({loading:false})
+   
+    })
  
 
     
@@ -225,7 +241,6 @@ if(payData=="Paid"){
               {this.state.loading ? (
                 <div className="loader">
                   {/* <img src={require('./spinner/loader.gif')} alt="loader" /> */}
-                  null
                 </div>
               ) : (
                 <button 
@@ -398,12 +413,12 @@ if(payData=="Paid"){
                   }
                 />
               </label>
-
-              <button className="primary-button" 
+{!this.state.loading? <button className="primary-button" 
                onClick={this.handleSignUp}
               >
                 Register
-              </button>
+              </button>:<div class="loader"></div>}
+             
               <span>
                 Already have an account ?{' '}
                 <a href="#"

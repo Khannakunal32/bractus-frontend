@@ -28,12 +28,14 @@ class updateProfile extends Component {
     isSponsorIdExist:'',
     id:'',
     disabledInputAad:false,
-    disabledInputpan:false
+    disabledInputpan:false,
+    loading:false
   }
 
 
 
   handleSignUp = () => {
+    this.setState({loading:true})
     const {
       username,
       firstName,
@@ -65,7 +67,11 @@ class updateProfile extends Component {
         window.location.href="/Dashboard"
       }
     })
+    .then(()=>{
+      this.setState({loading:false})
+    })
     .catch(function (error) {
+      this.setState({loading:false})
       console.log(error)
       alert(error)
     })
@@ -173,13 +179,13 @@ componentDidMount=()=>{
              
             
             
-
-
-              <button className="primary-button" 
+{!this.state.loading?  <button className="primary-button" 
                onClick={this.handleSignUp}
               >
                 Update
-              </button>
+              </button>:<div class="loader"></div>}
+
+            
              
             </>
         

@@ -142,7 +142,7 @@ axios
   this.setState({
     teamSize:res.data.data.length
   })
-  if((Dpackage=="ONE°" || Dpackage=="DEGREE 1") &&(downline.length<5)){
+  if((Dpackage=="ONE°" || Dpackage=="DEGREE 1") &&(downline.length<5) ){
 
     this.setState({allowedTeamSize:5})
   }else  if((Dpackage=="TWO°" || Dpackage=="DEGREE 2") &&(downline.length<8)){
@@ -156,6 +156,8 @@ axios
 
     this.setState({allowedTeamSize:15})
   }
+
+  
    
   })
  }
@@ -218,7 +220,7 @@ axios
 
        <a href="/Downline"><span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}>  <img src={team} className="profile-page-btn"></img>Downline</span></a>
        <a href="/publishBlog">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={blog} className="profile-page-btn"></img>Blogs</span></a>
-       {localStorage.getItem('isLoggedIn')=='true'? <a href="/RenewSubscription">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={subscribe} className="profile-page-btn"></img>Renew Subscription</span></a>
+       {localStorage.getItem('isLoggedIn')=='true'? <a href="/RenewSubscriptions">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={subscribe} className="profile-page-btn"></img>Renew Subscription</span></a>
      :null}   
       
        <a href="/CreateCourse">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={presentation} className="profile-page-btn"></img>Create Mentorship</span></a>
