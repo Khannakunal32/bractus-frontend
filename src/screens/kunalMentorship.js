@@ -47,7 +47,7 @@ export default function kunalMentorship() {
 */
 import React from "react";
 
-import zoom from '../Assets/Images/zoom.png'
+import zoom from "../Assets/Images/zoom.png";
 import "../kunal.css";
 export default function kunalMentorship() {
   return (
@@ -59,10 +59,8 @@ export default function kunalMentorship() {
     //     alignItems: "center",
     //     justifyContent: "center",
     //   }}>
-  
 
-    <div style={{ margin: 20 }} className="kstyle kstyle1" >
-      
+    <div style={{ margin: 20 }} className="kstyle kstyle1">
       <h1>Kunal Khanna's Mentorship</h1>
 
       <iframe
@@ -85,7 +83,7 @@ export default function kunalMentorship() {
           lineHeight: "25px",
         }}
       >
-        <p style={{fontSize: "1.5rem"}}>
+        <p style={{ fontSize: "1.5rem" }}>
           This is Kunal Khanna's personal mentorship to learn Marketing and
           kick-start your business.<br></br>
           This course will provide you with one of the best marketing knowledge
@@ -419,10 +417,9 @@ export default function kunalMentorship() {
           <h1>Day 5</h1>{" "}
         </div>
         <p>Task for the day 5 is following:</p>
-        <ol className="li" >
+        <ol >
           <li>
             Today watch this content first. <br></br>
-            <br></br>
             <iframe
               width="400"
               height="200"
@@ -434,9 +431,20 @@ export default function kunalMentorship() {
             ></iframe>
           </li>
 
-          <li >
-            Above is good , now watch this amazing session below.<br></br>
-            <iframe
+          <li>
+            Watch Skillset - Lead Generation <br></br>
+            <a
+              href="https://youtu.be/ZF06UQngDos"
+              title="Skillset 6 Lead Generation -1 "
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://www.ninjarmm.com/wp-content/uploads/2020/08/msp-remote-lead-generation-ideas-.jpg"
+                alt="Skillset - Lead Generation 1"
+              />
+            </a>
+            {/* <iframe
               width="400"
               height="200"
               src="https://www.youtube.com/embed/NeGWwIxyKKQ"
@@ -444,17 +452,23 @@ export default function kunalMentorship() {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
           </li>
+          <li>Finalize your profiling work.</li>
+          <li>Start daily lead generation. </li>
+          <li>But keep focus on hot-warm as well.</li>
+          <li>Listen to cold call recordings (soon available).</li>
+          <li>Pdf of chats will be attached here soon.</li>
           <li>
-           Follow sandeep maheshwari, Pushkar Raj Thakur, Dr Vivek Bindra and watch their content regularly.
+            Follow sandeep maheshwari, Pushkar Raj Thakur, Dr Vivek Bindra and
+            watch their content regularly.
           </li>
-          <li>
+          {/* <li>
             
             Revise all previous content.
           </li>
           <li>Work on your instagram and make it attractive. Take help from mentor.</li>
-          <li>Co-ordinate with your mentor and ask them how to apply these knowledge.</li>
+          <li>Co-ordinate with your mentor and ask them how to apply these knowledge.</li> */}
         </ol>
       </div>
       <h1>
@@ -463,56 +477,74 @@ export default function kunalMentorship() {
 
       <hr></hr>
 
-<div
-  style={{
-    display: "flex",
-    flexDirection: "column",
-    maxWidth: "flex",
-    textAlign: "left",
-    lineHeight: "25px",
-    paddingTop: "25px",
-    paddingbottom: "50px",
-  }}
->
-  <div
-    style={{
-      textAlign: "center",
-    }}
-  >
-    <h1>Day 6</h1>
-  </div>
-  <p>Task for the day 6 is following:</p>
-  <ol>
-    <li>
-      Watch Skillset - Lead Generation  <br></br>
-      <a
-        href="https://youtu.be/ZF06UQngDos"
-        title="Skillset 6 Lead Generation -1 "
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
       >
-        <img
-          width="400"
-          height="200"
-          src="https://www.ninjarmm.com/wp-content/uploads/2020/08/msp-remote-lead-generation-ideas-.jpg"
-          alt="Skillset - Lead Generation 1"
-        />
-      </a>
-    </li>
-<li>Finalize your profiling work.</li>
-    <li>Start daily lead generation. </li>
-    <li>
-    But keep focus on hot-warm as well.
-    </li>
-    <li>
-    Listen to cold call recordings (soon available).
-    </li>
-      <li>Pdf of chats will be attached here soon.</li>
-  </ol>
-</div>
-<h1>
-  Note: Please make sure to watch all video and complete the task to earn.
-</h1>
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 6</h1>
+        </div>
+        <p>Task for the day 6 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Objection Handling - Introduction <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+          <li>
+            "Tune Kitna Kamaya ?" - Objection (Don't skip)<br></br>
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/Uuaao7FKCbM"
+              title="Tune kitna kamaya -objection"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            {" "}
+            "Time ni hai. Manage kaise hoga?" - Objection (Don't skip) <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
 
-    <hr></hr>
+      <hr></hr>
 
       <div
         style={{
@@ -535,6 +567,31 @@ export default function kunalMentorship() {
         <p>Task for the day 7 is following:</p>
         <ol>
           <li>
+            {" "}
+            "Baad main kroonga join.." - Objection (don't skip)<br></br>
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/PxWvbnpjsEk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            "Bhai ye sab fraud hota hai"- Objection (don't skip)<br></br>
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/ulBHFkJfSWY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
             Watch Skillset - Relation Building 1 <br></br>
             <a
               href="https://youtu.be/yWLilnwar-I"
@@ -543,7 +600,6 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-           
                 src="https://www.hashmicro.com/blog/wp-content/uploads/2016/02/5-1.jpg"
                 alt="Skillset - Relation Building 1"
               />
@@ -559,13 +615,7 @@ export default function kunalMentorship() {
               src="https://drive.google.com/file/d/1K5KQpY6raMKfrszas5OCK3JOAe3GTJ0y/preview?usp=sharing"
             ></iframe>
           </li>
-          <li>Practice callings with your mentor.</li>
-          <li>Spend time with your mentor asking their calling experience.</li>
-          <li>
-            Attack hot warm list people Callings.
-          </li>
-          
-        
+          <li>Attack hot warm list people Callings.</li>
         </ol>
       </div>
       <h1>
@@ -603,17 +653,169 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                 src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
                 alt="Skillset - Relation Building 2"
               />
             </a>
           </li>
-      </ol>
+          <li>
+            {" "}
+            "Phle tu krle fir kroonga." - Objection (Don't skip) <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+        </ol>
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
 
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+            
+          }}
+        >
+          <h1>Day 9</h1>{" "}
+        </div>
+        <p>Task for the day 9 is following:</p>
+        <li className="sideway">
+          <li>
+            {" "}
+            "Papa mana krre hai"  <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+          <li>
+            {" "}
+            "Mujhe khud ni ata ? <br></br> "Meri mentorship koi kyo lega" <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+          <li>
+            {" "}
+            "Nahi hua to?"  <br></br>{" "}
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/s7NAtdRPSy4"
+              title="Nahi hua to?"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>
+            {" "}
+            "Bhai pakka hojaega?"  <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+          <li>
+            "Bhai mere bas ki baat ni hai"  <br></br>
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/SLGlE7TzKiY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              title="Mere bas ki baat ni hai"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>{" "}
+          <li>
+            "Bhai soch ke bataunga" <br></br>
+            <iframe
+              width="200"
+              height="100"
+              src="https://www.youtube.com/embed/rWm32K1OoMo"
+              title="Soch ke bataunga"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </li>
+          <li>"Interest nhi hai" <br></br>
+        <iframe
+          width="200"
+          height="100"
+          src="https://www.youtube.com/embed/pOZaZDITezI?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+          title="Interest nhi hai"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </li>
+      <li>
+            
+            "Earning kab se hogi" <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+        </li>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+     
       <hr></hr>
 
       {/* <div
@@ -667,6 +869,5 @@ export default function kunalMentorship() {
         Note: Please make sure to watch all video and complete the task to earn.
       </h1> */}
     </div>
-    
   );
 }

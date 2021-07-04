@@ -2,5 +2,5 @@
 .kstyle li{ margin-top: 0.5cm;
 margin-bottom: 0.5cm;
  }
-
+.sideway li{display:inline-block; margin-inline: 0.78cm; margin-bottom: 0.5cm;}
 /* .kstyle1 p{ font-size: 1cm}  */
