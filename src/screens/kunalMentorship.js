@@ -756,7 +756,7 @@ export default function kunalMentorship() {
             {" "}
             "Papa mana krre hai"  <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/b9lAfxofsvo"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -769,7 +769,7 @@ export default function kunalMentorship() {
           </li>
           <li>
             {" "}
-            "Mujhe khud ni ata ? <br></br> "Meri mentorship koi kyo lega" <br></br>
+            "Mujhe khud ni ata.. <br></br> "Meri mentorship koi kyo lega?" <br></br>
             <a
               href="https://youtu.be/EApuE1WffZg"
               title="Skillset - Objection Handling - Introduction"
@@ -801,7 +801,7 @@ export default function kunalMentorship() {
             {" "}
             "Bhai pakka hojaega?"  <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/5YQTBl-FfO8"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -842,7 +842,20 @@ export default function kunalMentorship() {
           </li>
           <li>"Interest nhi hai" <br></br>
           <a
-              href="https://youtu.be/pOZaZDITezI?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              href="https://youtu.be/a1HqEFhFURg"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+      </li>
+      <li>"Mentorship price kyo du?" <br></br>
+          <a
+              href="https://youtu.be/TUHUfshAg2Q"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -855,9 +868,9 @@ export default function kunalMentorship() {
       </li>
       <li>
             
-            "Earning kab se hogi" <br></br>
+            "Abhi tu invest krde fir leliyo.." <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/NXDRPkk_BNc"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -868,6 +881,20 @@ export default function kunalMentorship() {
               />
             </a>
           </li>
+      <li>"Extras" <br></br>
+          <a
+              href="https://youtu.be/qgKnAgn5wic "
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+      </li>
+      {/* */}
         </li>
         
       </div>
@@ -911,26 +938,13 @@ export default function kunalMentorship() {
                 alt="Skillset - Need Identification 1"
               />
             </a>
+
           </li>
           <li>
-            
-            "Agar mai skill seekh he ni ra to paise kyu?" <br></br>
+            {" "}
+            "Mentorship ka price zyada hai" <br></br> 
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
-              title="Skillset - Objection Handling - Introduction"
-            >
-              <img
-                width="200"
-                height="100"
-                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
-                alt="Skillset - Objection Handling - Introduction"
-              />
-            </a>
-            <li>
-            
-            "Abhi tu investment krde fir leliyo.." <br></br>
-            <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://www.youtube.com/watch?v=xoRD39PoNyU&list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9&index=3"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -941,7 +955,24 @@ export default function kunalMentorship() {
               />
             </a>
           </li>
+          <li>
+            {" "}
+            "Mai convince ni kr skta.."  <br></br>{" "}
+            <a
+              href="https://youtu.be/yMnBuxwfF-A"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
           </li>
+          
+            
+          
           
         </ol>
       </div>
