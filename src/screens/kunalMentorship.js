@@ -500,40 +500,52 @@ export default function kunalMentorship() {
           <li>
             Watch Skillset - Objection Handling - Introduction <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
+              href="https://youtu.be/gJt8WB5p8eI"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="400"
                 height="200"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-          </li>
+          </li> 
           <li>
-            "Tune Kitna Kamaya ?" - Objection (Don't skip)<br></br>
+            Must listen to below audio <br></br>
             <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/Uuaao7FKCbM"
-              title="Tune kitna kamaya -objection"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              width="500"
+              height="100"
+              title="kal"
+              src="https://drive.google.com/file/d/13wGRacYYdLsBZEhj_cE_s0ThgV3VId1s/preview?usp=sharing"
             ></iframe>
           </li>
           <li>
-            {" "}
-            "Time ni hai. Manage kaise hoga?" - Objection (Don't skip) <br></br>
+            "Tune Kitna Kamaya ?" - Objection (Don't skip)<br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+          <li>
+            {" "}
+            "Time ni hai. Manage kaise hoga?" - Objection (Don't skip) <br></br>
+            <a
+              href="https://youtu.be/kJUl9LxS-v0"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
@@ -569,27 +581,35 @@ export default function kunalMentorship() {
           <li>
             {" "}
             "Baad main kroonga join.." - Objection (don't skip)<br></br>
-            <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/PxWvbnpjsEk"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+
+            <a
+              href="https://youtu.be/PxWvbnpjsEk"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+
+
           </li>
           <li>
             "Bhai ye sab fraud hota hai"- Objection (don't skip)<br></br>
-            <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/ulBHFkJfSWY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <a
+              href="https://youtu.be/ulBHFkJfSWY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+
           </li>
           <li>
             Watch Skillset - Relation Building 1 <br></br>
@@ -662,14 +682,29 @@ export default function kunalMentorship() {
             {" "}
             "Phle tu krle fir kroonga." - Objection (Don't skip) <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+          <li>
+            {" "}
+            "Paise nhi hai!" - Objection (Don't skip) <br></br>
+            <a
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
               />
             </a>
           </li>
@@ -700,20 +735,21 @@ export default function kunalMentorship() {
         >
           <h1>Day 9</h1>{" "}
         </div>
-        <p>Task for the day 9 is following:</p>
+        <p>Watch all short videos on objection handling (don't skip):</p>
+        
         <li className="sideway">
           <li>
             {" "}
             "Papa mana krre hai"  <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
               />
             </a>
           </li>
@@ -721,96 +757,105 @@ export default function kunalMentorship() {
             {" "}
             "Mujhe khud ni ata ? <br></br> "Meri mentorship koi kyo lega" <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
               />
             </a>
           </li>
           <li>
             {" "}
             "Nahi hua to?"  <br></br>{" "}
-            <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/s7NAtdRPSy4"
-              title="Nahi hua to?"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <a
+              href="https://youtu.be/s7NAtdRPSy4"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
           </li>
           <li>
             {" "}
             "Bhai pakka hojaega?"  <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
               />
             </a>
           </li>
           <li>
             "Bhai mere bas ki baat ni hai"  <br></br>
-            <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/SLGlE7TzKiY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
-              title="Mere bas ki baat ni hai"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <a
+              href="https://youtu.be/SLGlE7TzKiY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
           </li>{" "}
           <li>
             "Bhai soch ke bataunga" <br></br>
-            <iframe
-              width="200"
-              height="100"
-              src="https://www.youtube.com/embed/rWm32K1OoMo"
-              title="Soch ke bataunga"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <a
+              href="https://youtu.be/rWm32K1OoMo"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
           </li>
           <li>"Interest nhi hai" <br></br>
-        <iframe
-          width="200"
-          height="100"
-          src="https://www.youtube.com/embed/pOZaZDITezI?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
-          title="Interest nhi hai"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+          <a
+              href="https://youtu.be/pOZaZDITezI?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
       </li>
       <li>
             
             "Earning kab se hogi" <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
             >
               <img
                 width="200"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
               />
             </a>
           </li>
         </li>
+        
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
@@ -818,6 +863,153 @@ export default function kunalMentorship() {
      
       <hr></hr>
 
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 10</h1>{" "}
+        </div>
+        <p>Task for the day 10 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Need Identificaiton 1 <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Need Identification 1"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Need Identification 1"
+              />
+            </a>
+          </li>
+          <li>
+            
+            "Agar mai skill seekh he ni ra to paise kyu?" <br></br>
+            <a
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+            <li>
+            
+            "Abhi tu investment krde fir leliyo.." <br></br>
+            <a
+              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+          </li>
+          
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+      <hr></hr>
+     
+     
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 11</h1>{" "}
+        </div>
+        <p>Task for the day 11 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Cold calling <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Cold Calling"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Cold Calling"
+              />
+            </a>
+          </li>
+          <li>
+            
+            "Agar mai skill seekh he ni ra to paise kyu?" <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+            <li>
+            
+            "Abhi tu investment krde fir leliyo.." <br></br>
+            <a
+              href="https://youtu.be/_ccAUA-dFkM"
+              title="Skillset - Objection Handling "
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                alt="Skillset - Objection Handling "
+              />
+            </a>
+          </li>
+          </li>
+          
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+      <hr></hr>
+     
+     
       {/* <div
         style={{
           display: "flex",
