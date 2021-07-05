@@ -186,7 +186,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://www.humanresourcesblog.in/wp-content/uploads/2011/10/How-Social-media-impacts-hiring.png"
+                src="https://miro.medium.com/max/1024/1*u8mZBHx_jr62W5hPOEgVVg.png"
                 alt="Skillset - Profiling"
               />
             </a>
@@ -215,15 +215,18 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. Its very funny and will teach you story
             bulding.<br></br>
-            <iframe
-              width="400"
-              height="200"
-              src="https://www.youtube.com/embed/WPcbGq2Wzpg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>{" "}
+           
+            <a
+              href="https://www.youtube.com/embed/WPcbGq2Wzpg"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="330"
+                height="200"
+                src="https://storage.googleapis.com/dialpad-cms.appspot.com/cms/transformed-images/storage_googleapis_com/dialpad-cms.appspot.com/cms/Talk-Admin-Week-1-Guide_Meta_200519_220144_ed61e5a23d2d56f9bd8928e3bd84aa6c.png"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
             <br></br>
             Recipe of Success 1- Sonu sharma
           </li>
@@ -231,15 +234,18 @@ export default function kunalMentorship() {
 
           <li>
             It was funny right. The next video is even better.<br></br>
-            <iframe
-              width="400"
-              height="200"
-              src="https://www.youtube.com/embed/p2ruFPzrMJ4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>{" "}
+         
+            <a
+              href="https://www.youtube.com/watch?v=p2ruFPzrMJ4"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="330"
+                height="200"
+                src="https://storage.googleapis.com/dialpad-cms.appspot.com/cms/transformed-images/storage_googleapis_com/dialpad-cms.appspot.com/cms/Talk-Admin-Week-1-Guide_Meta_200519_220144_ed61e5a23d2d56f9bd8928e3bd84aa6c.png"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
             <br></br>
             Recipe of Success 2- Sonu sharma <br></br>( Press "Watch On Youtube"
             to start the above video)
@@ -309,15 +315,18 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. It will teach you how to face rejection and
             is very imporatant for this journey.<br></br>
-            <iframe
-              width="400"
-              height="200"
-              src="https://www.youtube.com/embed/4Fwnunq3EAg"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>{" "}
+           
+            <a
+              href="https://www.youtube.com/watch?v=4Fwnunq3EAg"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="330"
+                height="200"
+                src="https://storage.googleapis.com/dialpad-cms.appspot.com/cms/transformed-images/storage_googleapis_com/dialpad-cms.appspot.com/cms/Talk-Admin-Week-1-Guide_Meta_200519_220144_ed61e5a23d2d56f9bd8928e3bd84aa6c.png"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
             <br></br>
             Deal with "NO" in sales - Sonu Sharma <br></br> (Press "Watch On
             Youtube" to start the above video)
@@ -378,15 +387,18 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. It will teach you how to face rejection and
             is very imporatant for this journey.<br></br>
-            <iframe
-              width="400"
-              height="200"
-              src="https://www.youtube.com/embed/xRq-J-WjB8A"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+           
+            <a
+              href="https://youtu.be/xRq-J-WjB8A"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="330"
+                height="200"
+                src="https://storage.googleapis.com/dialpad-cms.appspot.com/cms/transformed-images/storage_googleapis_com/dialpad-cms.appspot.com/cms/Talk-Admin-Week-1-Guide_Meta_200519_220144_ed61e5a23d2d56f9bd8928e3bd84aa6c.png"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
             <br></br>
             100% Sucessfull formuala - Pushkar Raj{" "}
           </li>
@@ -420,15 +432,17 @@ export default function kunalMentorship() {
         <ol >
           <li>
             Today watch this content first. <br></br>
-            <iframe
-              width="400"
-              height="200"
-              src="https://www.youtube.com/embed/6gAXOTIu6DE"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <a
+              href="https://youtu.be/6gAXOTIu6DE"
+              title="Skillset Invitation Hot-Warm"
+            >
+              <img
+                width="330"
+                height="200"
+                src="https://storage.googleapis.com/dialpad-cms.appspot.com/cms/transformed-images/storage_googleapis_com/dialpad-cms.appspot.com/cms/Talk-Admin-Week-1-Guide_Meta_200519_220144_ed61e5a23d2d56f9bd8928e3bd84aa6c.png"
+                alt="Skillset - Invitation Hot-Warm"
+              />
+            </a>
           </li>
 
           <li>
@@ -440,7 +454,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://www.ninjarmm.com/wp-content/uploads/2020/08/msp-remote-lead-generation-ideas-.jpg"
+                src="https://ebq.com/wp-content/uploads/2019/11/cold-calling-objections-and-responses-s.png"
                 alt="Skillset - Lead Generation 1"
               />
             </a>
@@ -620,7 +634,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://www.hashmicro.com/blog/wp-content/uploads/2016/02/5-1.jpg"
+                src="https://www.soleadify.com/wp-content/uploads/2020/06/what-is-b2b-sales-1.png"
                 alt="Skillset - Relation Building 1"
               />
             </a>
@@ -673,7 +687,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://www.soleadify.com/wp-content/uploads/2020/06/what-is-b2b-sales-1.png"
                 alt="Skillset - Relation Building 2"
               />
             </a>
@@ -682,7 +696,7 @@ export default function kunalMentorship() {
             {" "}
             "Phle tu krle fir kroonga." - Objection (Don't skip) <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/kpBnEXmn_D0"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -697,7 +711,7 @@ export default function kunalMentorship() {
             {" "}
             "Paise nhi hai!" - Objection (Don't skip) <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/2QbeS2wXJII"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -757,7 +771,7 @@ export default function kunalMentorship() {
             {" "}
             "Mujhe khud ni ata ? <br></br> "Meri mentorship koi kyo lega" <br></br>
             <a
-              href="https://www.youtube.com/watch?v=Uuaao7FKCbM"
+              href="https://youtu.be/EApuE1WffZg"
               title="Skillset - Objection Handling - Introduction"
             >
               <img
@@ -893,7 +907,7 @@ export default function kunalMentorship() {
               <img
                 width="400"
                 height="200"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://www.kapturecrm.com/blog/wp-content/uploads/2016/08/Five-Practical-ways-to-Close-more-Deals-using-CRM-platform.jpg"
                 alt="Skillset - Need Identification 1"
               />
             </a>
@@ -937,7 +951,7 @@ export default function kunalMentorship() {
       <hr></hr>
      
      
-      <div
+      {/* <div
         style={{
           display: "flex",
           flexDirection: "column",
@@ -1007,7 +1021,7 @@ export default function kunalMentorship() {
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
-      <hr></hr>
+      <hr></hr> */}
      
      
       {/* <div
