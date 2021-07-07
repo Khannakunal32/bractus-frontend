@@ -27,7 +27,8 @@ class Signin extends Component {
     SponsorId:'',
     isSponsorIdExist:'',
     marketerId:'',
-    loading:false
+    loading:false,
+    teamLimit:0
   }
 
 
@@ -84,6 +85,7 @@ class Signin extends Component {
 
   handleSignUp = () => {
     this.setState({loading:true})
+    
     const {
       username,
       firstName,
@@ -121,6 +123,9 @@ class Signin extends Component {
     })
     .then((res)=>{
 let payData=res.data.message.status
+let teamLimit=res.res.message.teamLimit
+this.setState({teamLimit:teamLimit})
+
 if(payData=="Paid"){
   axios .post(' https://testapis.megahoot.net/api/users/subscriptionDetails',{
     SponsorId:SponsorId
@@ -129,17 +134,17 @@ if(payData=="Paid"){
   let sponsor_package=  res.data.package[0].package;
   // console.log(sponsor_package[0].package,"sky")
   let downline= res.data.data
-  if((sponsor_package=="ONE°" || sponsor_package=="DEGREE 1") &&(downline.length<5)){
+  if((sponsor_package=="ONE°" || sponsor_package=="DEGREE 1") &&(downline.length<6 || downline.length<teamLimit )){
 
     this.setState({isSponsorIdExist:true})
-  }else  if((sponsor_package=="TWO°" || sponsor_package=="DEGREE 2") &&(downline.length<8)){
+  }else  if((sponsor_package=="TWO°" || sponsor_package=="DEGREE 2") &&(downline.length<9 || downline.length<teamLimit )){
 
     this.setState({isSponsorIdExist:true})
   }
-  else  if((sponsor_package=="THREE°" || sponsor_package=="DEGREE 3") &&(downline.length<12)){
+  else  if((sponsor_package=="THREE°" || sponsor_package=="DEGREE 3") &&(downline.length<13 || downline.length<teamLimit )){
 
     this.setState({isSponsorIdExist:true})
-  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4") &&(downline.length<30)){
+  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4") &&(downline.length<31 || downline.length<teamLimit )){
 
     this.setState({isSponsorIdExist:true})
   }

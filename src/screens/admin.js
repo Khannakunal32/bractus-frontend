@@ -34,7 +34,9 @@ class Admin extends Component {
    SponsorId:'',
    id:'',
    Degreepackage:'',
-   modal:false
+   modal:false,
+   limit:0,
+   showLimit:false
  }
 
 
@@ -152,7 +154,7 @@ approveOrderProduct=(value)=>{
  getUsers=()=>{
    
 axios
-.get(` https://testapis.megahoot.net/api/users/`, {
+.get(`https://testapis.megahoot.net/api/users`, {
 })
 .then((res) => {
   const data = res.data
@@ -263,6 +265,18 @@ if(e.package){
 
  }
  
+ approveRenew=(user)=>{
+   
+   let limit = this.state.limit
+   axios .post(`https://testapis.megahoot.net/api/users/allowRenew`,{
+     id:user.id,
+     limit:limit
+   })
+   .then(()=>{
+     alert('successFully Renewal set')
+   })
+ }
+
  paidStyle={
     backgroundColor:'white'
 }
@@ -270,6 +284,9 @@ if(e.package){
 unPaidStyle={
     backgroundColor:'red'
 }
+
+
+
  componentDidMount=()=>{
      this.getUsers()
 
@@ -292,6 +309,8 @@ unPaidStyle={
    alert(`${name} deleted Successfully from database`)
   }).catch(err=>{alert(err)})
  }
+
+
 
   render() {
   
@@ -455,11 +474,13 @@ unPaidStyle={
       <th>Approve Package</th>
       <th>Paid For Last Week</th>
       <th>update</th>
+      <th>Renew</th>
     
     </tr>
     
     
   </thead>
+
  
   {this.state.allusers && this.state.allusers.length > 0
             ? this.state.allusers.map((value, index) => {
@@ -479,14 +500,15 @@ unPaidStyle={
             {/* <td id={value.id}>{this.findUserPayment(value.id,value.status,value.package,(result)=>{document.getElementById(value.id).innerHTML=result})}</td>
              */}
             <button onClick={()=>{this.setState({showcredit:!this.state.showcredit,payname:value})}}>Check Pay</button>
-            {/* <td>{value.status=='unpaid'?<button onClick={()=>this.approveOrderProduct(value)}>Approve Payment</button>:null}</td> */}
+            
             <td><button onClick={()=>this.approveOrderProduct(value)}>Approve Payment</button></td>
               <td>{value.paidLastWeek!=="true"?<button id={value.id+'btn'} onClick={()=>{this.paidLastWeek(value.id)}}>We Paid </button>:<button id={value.id+'btn'} onClick={()=>{this.paidLastWeek(value.id)}}>We Paid </button>}</td>
              <td><button onClick={()=>{this.openModal(value.id,value.firstName,value.lastName,value.Phone,value.package,value.email,value.SponsorId)}}>Update</button></td>
            
-       
-       
-  
+     
+             <td>{value.renew=='RENEW' ?<div><button onClick={()=>{this.setState({showLimit:true});this.approveRenew(value)} }>Approve Renewal</button>  <input onChange={(e)=>{this.setState({limit:e.target.value})}} placeholder="set max Limit" ></input>
+             </div> :null}</td>
+            
               {/* <td><button onClick={()=>{
 this.deleteUser(value.id,value.firstName)
               }}>Delete</button></td> */}

@@ -131,6 +131,18 @@ axios
 })
  }
 
+ renewHandler=()=>{
+   let id=this.state.id
+  axios
+  .post(`https://testapis.megahoot.net/api/users/renewal`, {
+    id:id
+  })
+  .then(()=>{
+    alert('Applied for renewal')
+  })
+  .catch((err)=>{alert(err,"error")})
+ }
+
  calculateTeamSize=(id,Dpackage)=>{
   axios .post(' https://testapis.megahoot.net/api/users/getDownlineData',{
     id:id
@@ -220,7 +232,7 @@ axios
 
        <a href="/Downline"><span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}>  <img src={team} className="profile-page-btn"></img>Downline</span></a>
        <a href="/publishBlog">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={blog} className="profile-page-btn"></img>Blogs</span></a>
-       {localStorage.getItem('isLoggedIn')=='true'? <a href="/RenewSubscriptions">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={subscribe} className="profile-page-btn"></img>Renew Subscription</span></a>
+       {localStorage.getItem('isLoggedIn')=='true'? <a onClick={()=>{this.renewHandler()}}>  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={subscribe} className="profile-page-btn"></img>Renew Subscription</span></a>
      :null}   
       
        <a href="/CreateCourse">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={presentation} className="profile-page-btn"></img>Create Mentorship</span></a>
