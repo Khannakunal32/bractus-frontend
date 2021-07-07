@@ -215,7 +215,6 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. Its very funny and will teach you story
             bulding.<br></br>
-           
             <a
               href="https://www.youtube.com/embed/WPcbGq2Wzpg"
               title="Skillset Invitation Hot-Warm"
@@ -234,7 +233,6 @@ export default function kunalMentorship() {
 
           <li>
             It was funny right. The next video is even better.<br></br>
-         
             <a
               href="https://www.youtube.com/watch?v=p2ruFPzrMJ4"
               title="Skillset Invitation Hot-Warm"
@@ -315,7 +313,6 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. It will teach you how to face rejection and
             is very imporatant for this journey.<br></br>
-           
             <a
               href="https://www.youtube.com/watch?v=4Fwnunq3EAg"
               title="Skillset Invitation Hot-Warm"
@@ -387,7 +384,6 @@ export default function kunalMentorship() {
           <li>
             Watch the video given. It will teach you how to face rejection and
             is very imporatant for this journey.<br></br>
-           
             <a
               href="https://youtu.be/xRq-J-WjB8A"
               title="Skillset Invitation Hot-Warm"
@@ -429,7 +425,7 @@ export default function kunalMentorship() {
           <h1>Day 5</h1>{" "}
         </div>
         <p>Task for the day 5 is following:</p>
-        <ol >
+        <ol>
           <li>
             Today watch this content first. <br></br>
             <a
@@ -524,7 +520,7 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-          </li> 
+          </li>
           <li>
             Must listen to below audio <br></br>
             <iframe
@@ -595,7 +591,6 @@ export default function kunalMentorship() {
           <li>
             {" "}
             "Baad main kroonga join.." - Objection (don't skip)<br></br>
-
             <a
               href="https://youtu.be/PxWvbnpjsEk"
               title="Skillset - Objection Handling - Introduction"
@@ -607,8 +602,6 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-
-
           </li>
           <li>
             "Bhai ye sab fraud hota hai"- Objection (don't skip)<br></br>
@@ -623,7 +616,6 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-
           </li>
           <li>
             Watch Skillset - Relation Building 1 <br></br>
@@ -744,17 +736,16 @@ export default function kunalMentorship() {
         <div
           style={{
             textAlign: "center",
-            
           }}
         >
           <h1>Day 9</h1>{" "}
         </div>
         <p>Watch all short videos on objection handling (don't skip):</p>
-        
+
         <li className="sideway">
           <li>
             {" "}
-            "Papa mana krre hai"  <br></br>
+            "Papa mana krre hai" <br></br>
             <a
               href="https://youtu.be/b9lAfxofsvo"
               title="Skillset - Objection Handling - Introduction"
@@ -769,7 +760,8 @@ export default function kunalMentorship() {
           </li>
           <li>
             {" "}
-            "Mujhe khud ni ata.. <br></br> "Meri mentorship koi kyo lega?" <br></br>
+            "Mujhe khud ni ata.. <br></br> "Meri mentorship koi kyo lega?"{" "}
+            <br></br>
             <a
               href="https://youtu.be/EApuE1WffZg"
               title="Skillset - Objection Handling - Introduction"
@@ -784,7 +776,7 @@ export default function kunalMentorship() {
           </li>
           <li>
             {" "}
-            "Nahi hua to?"  <br></br>{" "}
+            "Nahi hua to?" <br></br>{" "}
             <a
               href="https://youtu.be/s7NAtdRPSy4"
               title="Skillset - Objection Handling - Introduction"
@@ -799,7 +791,7 @@ export default function kunalMentorship() {
           </li>
           <li>
             {" "}
-            "Bhai pakka hojaega?"  <br></br>
+            "Bhai pakka hojaega?" <br></br>
             <a
               href="https://youtu.be/5YQTBl-FfO8"
               title="Skillset - Objection Handling - Introduction"
@@ -813,7 +805,7 @@ export default function kunalMentorship() {
             </a>
           </li>
           <li>
-            "Bhai mere bas ki baat ni hai"  <br></br>
+            "Bhai mere bas ki baat ni hai" <br></br>
             <a
               href="https://youtu.be/SLGlE7TzKiY?list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9"
               title="Skillset - Objection Handling - Introduction"
@@ -840,8 +832,9 @@ export default function kunalMentorship() {
               />
             </a>
           </li>
-          <li>"Interest nhi hai" <br></br>
-          <a
+          <li>
+            "Interest nhi hai" <br></br>
+            <a
               href="https://youtu.be/a1HqEFhFURg"
               title="Skillset - Objection Handling - Introduction"
             >
@@ -852,9 +845,10 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-      </li>
-      <li>"Mentorship price kyo du?" <br></br>
-          <a
+          </li>
+          <li>
+            "Mentorship price kyo du?" <br></br>
+            <a
               href="https://youtu.be/TUHUfshAg2Q"
               title="Skillset - Objection Handling - Introduction"
             >
@@ -865,9 +859,8 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-      </li>
-      <li>
-            
+          </li>
+          <li>
             "Abhi tu invest krde fir leliyo.." <br></br>
             <a
               href="https://youtu.be/NXDRPkk_BNc"
@@ -881,8 +874,9 @@ export default function kunalMentorship() {
               />
             </a>
           </li>
-      <li>"Extras" <br></br>
-          <a
+          <li>
+            "Extras" <br></br>
+            <a
               href="https://youtu.be/qgKnAgn5wic "
               title="Skillset - Objection Handling - Introduction"
             >
@@ -893,17 +887,15 @@ export default function kunalMentorship() {
                 alt="Skillset - Objection Handling - Introduction"
               />
             </a>
-      </li>
-      {/* */}
+          </li>
+          {/* */}
         </li>
-        
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
-     
-      <hr></hr>
 
+      <hr></hr>
 
       <div
         style={{
@@ -928,7 +920,7 @@ export default function kunalMentorship() {
           <li>
             Watch Skillset - Need Identificaiton 1 <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
+              href="https://youtu.be/iCI3mzIGRyY "
               title="Skillset - Need Identification 1"
             >
               <img
@@ -938,11 +930,23 @@ export default function kunalMentorship() {
                 alt="Skillset - Need Identification 1"
               />
             </a>
-
+            {/*  */}
           </li>
           <li>
             {" "}
-            "Mentorship ka price zyada hai" <br></br> 
+            The 8.16 audio(The girl referred in this audio is earning good now
+            :).<br></br>
+            <iframe
+              frameborder="0"
+              width="500"
+              height="100"
+              title="kal"
+              src="https://drive.google.com/file/d/14FRHwqU1S62jaOB9Tn2BdQnxewBua9zC/preview?usp=sharing"
+            ></iframe>
+          </li>
+          <li>
+            {" "}
+            "Mentorship ka price zyada hai" <br></br>
             <a
               href="https://www.youtube.com/watch?v=xoRD39PoNyU&list=PLxNHpNhDaEFKYKtIuOxOiNDRT0Em1h6N9&index=3"
               title="Skillset - Objection Handling - Introduction"
@@ -957,7 +961,7 @@ export default function kunalMentorship() {
           </li>
           <li>
             {" "}
-            "Mai convince ni kr skta.."  <br></br>{" "}
+            "Mai convince ni kr skta.." <br></br>{" "}
             <a
               href="https://youtu.be/yMnBuxwfF-A"
               title="Skillset - Objection Handling - Introduction"
@@ -970,19 +974,14 @@ export default function kunalMentorship() {
               />
             </a>
           </li>
-          
-            
-          
-          
         </ol>
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
       <hr></hr>
-     
-     
-      {/* <div
+
+      <div
         style={{
           display: "flex",
           flexDirection: "column",
@@ -1003,59 +1002,47 @@ export default function kunalMentorship() {
         <p>Task for the day 11 is following:</p>
         <ol>
           <li>
-            Watch Skillset - Cold calling <br></br>
+            Watch Skillset - Cold Calling <br></br>
             <a
-              href="https://youtu.be/_ccAUA-dFkM"
+              href="https://youtu.be/AT_kCOhUWZY"
               title="Skillset - Cold Calling"
             >
               <img
                 width="400"
                 height="200"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
+                src="https://blog-assets.freshworks.com/freshsales-crm/wp-content/uploads/2018/09/sales-objections-freshsales.png"
                 alt="Skillset - Cold Calling"
               />
             </a>
+            <li>Do a mock call with the help of upline</li>
+            <li>Start calling your prospects</li>
+            {/*  */}
           </li>
           <li>
-            
-            "Agar mai skill seekh he ni ra to paise kyu?" <br></br>
-            <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
-            >
+            {" "}
+            Direct Closing 1- Call recording - Kunal Khanna <br></br>(Must
+            listen and make notes)<br></br>
+            <a href="https://youtu.be/_wcKE30CaA0" title="Direct Closing">
               <img
-                width="200"
+                width="300"
                 height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
-              />
-            </a>
-            <li>
-            
-            "Abhi tu investment krde fir leliyo.." <br></br>
-            <a
-              href="https://youtu.be/_ccAUA-dFkM"
-              title="Skillset - Objection Handling "
-            >
-              <img
-                width="200"
-                height="100"
-                src="https://i1.wp.com/growthlynx.com/wp-content/uploads/2017/01/cropped-peopel-in-a-business-meeting-shaking-hands-computer-on-table11.jpg?ssl=1"
-                alt="Skillset - Objection Handling "
+                src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q3/handling-sales-objections/handling-sales-objections-header@2x.png"
+                alt="Skillset - Need Identification 1"
               />
             </a>
           </li>
+
+          <li>
+            Make scripts of above calls and keep it in hands while calling.
           </li>
-          
         </ol>
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
       </h1>
-      <hr></hr> */}
-     
-     
-      {/* <div
+      <hr></hr>
+
+      <div
         style={{
           display: "flex",
           flexDirection: "column",
@@ -1071,40 +1058,168 @@ export default function kunalMentorship() {
             textAlign: "center",
           }}
         >
-          <h1>Day 8</h1>{" "}
+          <h1>Day 12</h1>{" "}
         </div>
-        <p>Task for the day 8 is following:</p>
+        <p>Task for the day 12 is following:</p>
         <ol>
           <li>
-            Watch Skillset - Invitation Hot-Warm <br></br>
+            Watch Skillset - Story Telling <br></br>
             <a
-              href="https://youtu.be/O1PSVrOT6Do"
-              title="Skillset Pre-Immuning Hot-Warm"
+              href="https://youtu.be/vunnPaucP-M"
+              title="Skillset - Story Telling"
             >
               <img
-                width="400"
+                width="300"
                 height="200"
-                src="https://i9.ytimg.com/vi_webp/cM_5GI1hyac/mqdefault.webp?v=607ffdd4&sqp=CPSm7IYG&rs=AOn4CLCj9pLTYg9j8rtj8J8iArqw3OUyLw"
-                alt="Skillset - Pre-Immuning Hot-Warm"
+                src="https://902210.smushcdn.com/2154406/wp-content/uploads/2020/08/overcoming_price_objections_0.jpg?lossy=0&strip=1&webp=1"
+                alt="Skillset - Story Telling"
               />
             </a>
+            <li>
+              Create a story plot using Sonu Sharma video (recipe of success)
+            </li>
+            <li>
+              {" "}
+              Direct Closing 2- Call recording - Kunal Khanna <br></br>(Must
+              listen and make notes)<br></br>
+              <a href="https://youtu.be/LpWFa_RVdpQ" title="Direct Closing 2">
+                <img
+                  width="300"
+                  height="100"
+                  src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q3/handling-sales-objections/handling-sales-objections-header@2x.png"
+                  alt="Skillset - Need Identification 1"
+                />
+              </a>
+            </li>
+            {/*  */}
           </li>
-         
-          <li>Start pre-immuning your friends whom you've called before.</li>
-          <li>
-            Call more hot-warm friends and start scheduling the buiness webinars
-            for them.
-          </li>
-          <li>
-            {" "}
-            Call 5 people from hot warm market and take help of your Mentor.
-          </li>
-        
         </ol>
       </div>
       <h1>
         Note: Please make sure to watch all video and complete the task to earn.
-      </h1> */}
+      </h1>
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 13</h1>{" "}
+        </div>
+        <p>Task for the day 13 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Closing Call❤️ <br></br>
+            <a
+              href="https://youtu.be/kWJm0jct8fU"
+              title="Skillset - Story Telling"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://static.tildacdn.com/tild6536-3064-4634-b361-646165633266/business_processes_a.jpg"
+                alt="Skillset - Story Telling"
+              />
+            </a>
+            {/*  */}
+          </li>
+          <li>
+            {" "}
+            "Paise nhi hai"- Objection <br></br>
+            <a
+              href="https://www.youtube.com/watch?v=td7fVatxvdk"
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+      <hr></hr>
+
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxWidth: "flex",
+          textAlign: "left",
+          lineHeight: "25px",
+          paddingTop: "25px",
+          paddingbottom: "50px",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+          }}
+        >
+          <h1>Day 14</h1>{" "}
+        </div>
+        <p>Task for the day 14 is following:</p>
+        <ol>
+          <li>
+            Watch Skillset - Team Management <br></br>
+            <a
+              href="https://youtu.be/LL0d3itqlNs"
+              title="Skillset - Team Management"
+            >
+              <img
+                width="400"
+                height="200"
+                src="https://myrecruitmentplus.com/wp-content/uploads/2018/06/Employee-experience-1.jpg"
+                alt="Skillset - Team Management"
+              />
+            </a>
+            {/*  */}
+          </li>
+          <li>
+            {" "}
+            "Ghar wale mana krre hai" - Objection <br></br>{" "}
+            <a
+              href=" https://youtu.be/rnlQmMEqZWU   "
+              title="Skillset - Objection Handling - Introduction"
+            >
+              <img
+                width="200"
+                height="100"
+                src="https://blog.thecenterforsalesstrategy.com/hubfs/sales-objections-questions.jpeg"
+                alt="Skillset - Objection Handling - Introduction"
+              />
+            </a>
+          </li>
+          <li>
+            Follow Pushkar Raj thakur , Tarun aggarwal and other marketers on
+            youtube
+          </li>
+          <li>Watch their content on daily basis to learn new skills</li>{" "}
+        <li>Take yout team trackings and help them with doubts</li>
+        <li>Follow all steps in presentation</li>
+        </ol>
+      </div>
+      <h1>
+        Note: Please make sure to watch all video and complete the task to earn.
+      </h1>
+      <hr></hr>
     </div>
   );
 }
