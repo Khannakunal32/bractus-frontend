@@ -29,6 +29,7 @@ import createCourse from "./screens/CreateCourse";
 import AvailableCourses from "./screens/availableCourse";
 import kunalMentorship from "./screens/kunalMentorship";
 import leaderBoard from "./screens/leaderBoard";
+import RenewSubscription from "./screens/RenewSubscription";
 
 function App(props) {
   return (
@@ -192,6 +193,8 @@ function App(props) {
           {/* <Route path="/CreateCourse" component={createCourse}></Route> */}
           <Route path="/availableCourses" component={AvailableCourses}></Route>
           <Route path="/CreateCourse" component={createCourse}></Route>
+          <Route path="/RenewSubscription" component={RenewSubscription}></Route>
+          
       
         </main>
 

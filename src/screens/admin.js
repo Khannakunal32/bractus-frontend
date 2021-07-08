@@ -266,8 +266,9 @@ if(e.package){
  }
  
  approveRenew=(user)=>{
-   
-   let limit = this.state.limit
+ 
+   let limit = parseInt(user.renew) 
+  
    axios .post(`https://testapis.megahoot.net/api/users/allowRenew`,{
      id:user.id,
      limit:limit
@@ -506,7 +507,7 @@ unPaidStyle={
              <td><button onClick={()=>{this.openModal(value.id,value.firstName,value.lastName,value.Phone,value.package,value.email,value.SponsorId)}}>Update</button></td>
            
      
-             <td>{value.renew=='RENEW' ?<div><button onClick={()=>{this.setState({showLimit:true});this.approveRenew(value)} }>Approve Renewal</button>  <input onChange={(e)=>{this.setState({limit:e.target.value})}} placeholder="set max Limit" ></input>
+             <td>{value.renew!=='' && value.renew!=='RENEWED' ?<div><button onClick={()=>{this.setState({showLimit:true});this.approveRenew(value)} }>Approve Renewal</button> 
              </div> :null}</td>
             
               {/* <td><button onClick={()=>{
