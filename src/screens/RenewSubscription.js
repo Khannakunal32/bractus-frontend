@@ -28,7 +28,7 @@ export default function RenewSubscription() {
     let id = Id;
     let teamLimit=Dlimit
     axios
-      .post(`http://localhost:4000/api/users/renewal`, {
+      .post(`https://testapis.megahoot.net/api/users/renewal`, {
         id: id,
         teamLimit: Dlimit,
       })
