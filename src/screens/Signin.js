@@ -42,7 +42,7 @@ class Signin extends Component {
     this.setState({loading:true})
     const { email, password } = this.state
     axios
-      .post(` https://testapis.megahoot.net/api/users/login`, {
+      .post(` https://testapi.amaprods.com/api/users/login`, {
         email: email,
         password: password,
       })
@@ -105,7 +105,7 @@ class Signin extends Component {
       alert("Password Do not Match !")
     }else if(username && firstName&&lastName&&email&&confirmPassword&&password&&age&&State&&City&&Address&&Phone&&SponsorId,marketerId ){
       
-    //   axios .get(' https://testapis.megahoot.net/api/users/')
+    //   axios .get(' https://testapi.amaprods.com/api/users/')
     // .then((res)=>{
     //   res.data.data.forEach(element => {
     //     if(element.id==this.state.SponsorId){
@@ -118,7 +118,7 @@ class Signin extends Component {
 
     //  })
     alert("Before SignUp,Please make sure to read our terms and conditions")
-    axios .post(' https://testapis.megahoot.net/api/users/byid',{
+    axios .post(' https://testapi.amaprods.com/api/users/byid',{
       id:SponsorId
     })
     .then((res)=>{
@@ -127,7 +127,7 @@ let teamLimit=res.res.message.teamLimit
 this.setState({teamLimit:teamLimit})
 
 if(payData=="Paid"){
-  axios .post(' https://testapis.megahoot.net/api/users/subscriptionDetails',{
+  axios .post(' https://testapi.amaprods.com/api/users/subscriptionDetails',{
     SponsorId:SponsorId
   })
   .then((res)=>{
@@ -153,7 +153,7 @@ if(payData=="Paid"){
    .then(()=>{
     if(this.state.isSponsorIdExist){
       axios
-      .post(` https://testapis.megahoot.net/api/users/`, {
+      .post(` https://testapi.amaprods.com/api/users/`, {
         firstName: firstName,
         lastName: lastName,
         username: username,

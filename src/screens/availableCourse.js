@@ -17,7 +17,7 @@ class AvailableCourses extends Component {
 
   getAllCourses = () => {
     axios
-      .get(`https://testapis.megahoot.net/api/users/showCourse`)
+      .get(`https://testapi.amaprods.com/api/users/showCourse`)
       .then((res) => {
         const data = res.data;
         const SponsorId = this.state.mentorId;
@@ -49,7 +49,7 @@ class AvailableCourses extends Component {
   getuserbyid = (id) => {
     // console.log(id);
     axios
-      .post(` https://testapis.megahoot.net/api/users/byid`, {
+      .post(` https://testapi.amaprods.com/api/users/byid`, {
         id: id,
       })
       .then((res) => {

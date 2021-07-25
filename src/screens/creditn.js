@@ -20,7 +20,7 @@ function Creditn(props) {
 
   const calculateMentorIncome=()=>{
     var mentorPrice=0;
-    axios .post('https://testapis.megahoot.net/api/users/calculateMyMentorIncome',{
+    axios .post('https://testapi.amaprods.com/api/users/calculateMyMentorIncome',{
       id:decoded})
     .then((res)=>{
   console.log(res,"ttr")
@@ -28,7 +28,7 @@ function Creditn(props) {
     
     
     
-            axios .post('https://testapis.megahoot.net/api/users/calculateMyMentorIncome2',{
+            axios .post('https://testapi.amaprods.com/api/users/calculateMyMentorIncome2',{
       courseId:course.courseId
     })
     .then((res)=>{
@@ -57,7 +57,7 @@ function Creditn(props) {
   
   const calculateMarketerIncome=()=>{
     var my_marketer_income = 0;
-    axios .post('https://testapis.megahoot.net/api/users/calculateMyMarketerIncome',{
+    axios .post('https://testapi.amaprods.com/api/users/calculateMyMarketerIncome',{
       id:decoded
     })
     .then((res)=>{
@@ -66,7 +66,7 @@ function Creditn(props) {
   res.data.data.forEach((user)=>{
     if(user.status=="Paid"){
       console.log(user.courseId)
-  axios .post('https://testapis.megahoot.net/api/users/calculateMyMarketerIncome2',{
+  axios .post('https://testapi.amaprods.com/api/users/calculateMyMarketerIncome2',{
     courseId:user.courseId
   })
   .then((res)=>{
@@ -91,18 +91,18 @@ function Creditn(props) {
   
   const calculateRoyalityIncome=()=>{
     var royalityAmount=0;
-    axios .post('https://testapis.megahoot.net/api/users/calculateRoyalityIncome',{
+    axios .post('https://testapi.amaprods.com/api/users/calculateRoyalityIncome',{
       id:decoded
     })
     .then((res)=>{
   res.data.data.forEach((user)=>{
     if(user.status=="Paid"){
-       axios .post('https://testapis.megahoot.net/api/users/calculateRoyalityIncome',{
+       axios .post('https://testapi.amaprods.com/api/users/calculateRoyalityIncome',{
       id:user.id
     })
     .then((res)=>{
       res.data.data.forEach((student)=>{
-        axios .post('https://testapis.megahoot.net/api/users/calculateRoyalityIncome2',{
+        axios .post('https://testapi.amaprods.com/api/users/calculateRoyalityIncome2',{
           courseId:student.courseId
         })
         .then((res)=>{
@@ -166,7 +166,7 @@ function Creditn(props) {
   // const fetchusersdata = (cdata) => {
   //   axios({
   //     method: "post",
-  //     url: " https://testapis.megahoot.net/api/users/userdata",
+  //     url: " https://testapi.amaprods.com/api/users/userdata",
   //     data: {
   //       sponsarid: decoded,
   //       marketerid: decoded,
@@ -181,7 +181,7 @@ function Creditn(props) {
   // const fetchpackagedetails = (cdata) => {
   //   axios({
   //     method: "post",
-  //     url: " https://testapis.megahoot.net/api/users/package_details",
+  //     url: " https://testapi.amaprods.com/api/users/package_details",
   //     data: {
   //       sponsarid: decoded,
   //     },
@@ -196,7 +196,7 @@ function Creditn(props) {
   // const fetchcoursedata = () => {
   //   axios({
   //     method: "post",
-  //     url: " https://testapis.megahoot.net/api/users/coursedata",
+  //     url: " https://testapi.amaprods.com/api/users/coursedata",
   //     data: {
   //       mentorid: decoded,
   //     },
@@ -213,7 +213,7 @@ function Creditn(props) {
 
   // const sendtocalcincome = (data, cdata) => {
   //   axios
-  //     .post(" https://testapis.megahoot.net/api/users/datainjson", {
+  //     .post(" https://testapi.amaprods.com/api/users/datainjson", {
   //       usersdata: data,
   //       coursedata: cdata,
   //       marketerid: decoded,
@@ -224,7 +224,7 @@ function Creditn(props) {
   //     .then((response) => {
   //       setMentorIncome(response.data.data.Mentor_income);
   //       setMarketerIncome(response.data.data.Marketer_Income);
-  //       axios .post(' https://testapis.megahoot.net/api/users/byid',{
+  //       axios .post(' https://testapi.amaprods.com/api/users/byid',{
   //         id:decoded
   //       })
   //       .then((res)=>{

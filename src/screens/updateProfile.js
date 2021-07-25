@@ -47,7 +47,7 @@ class updateProfile extends Component {
     } = this.state
    if(firstName&&lastName&&Phone){
     axios
-    .post(` https://testapis.megahoot.net/api/users/updateUsers`, {
+    .post(` https://testapi.amaprods.com/api/users/updateUsers`, {
       firstName: firstName,
       lastName: lastName,
       AadharCard:AadharCard,

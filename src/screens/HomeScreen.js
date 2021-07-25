@@ -37,7 +37,7 @@ let pd =localStorage.getItem("Degree")
       let myid = decoded.result.id;
       console.log(courseId, "courseId");
       axios
-        .post(` https://testapis.megahoot.net/api/users/updatePackage`, {
+        .post(` https://testapi.amaprods.com/api/users/updatePackage`, {
           package: productName,
           courseId: courseId,
           status: "unpaid",

@@ -28,7 +28,7 @@ export default function RenewSubscription() {
     let id = Id;
     let teamLimit=Dlimit
     axios
-      .post(`https://testapis.megahoot.net/api/users/renewal`, {
+      .post(`https://testapi.amaprods.com/api/users/renewal`, {
         id: id,
         teamLimit: Dlimit,
       })

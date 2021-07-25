@@ -43,7 +43,7 @@ class submitBankDetails extends Component {
           alert('UPI Do not Match')
         }else {
           axios
-          .post(` https://testapis.megahoot.net/api/users/updateBankDetails`, {
+          .post(` https://testapi.amaprods.com/api/users/updateBankDetails`, {
               name:name,
               IFSC:IFSC,
               ACNUMBER:ACNUMBER,

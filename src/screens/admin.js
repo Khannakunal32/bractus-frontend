@@ -61,7 +61,7 @@ openModal=(id,firstName,lastName,Phone,Degreepackage,email,SponsorId,AadharCard,
   } = this.state
  if(firstName&&lastName&&Phone){
   axios
-  .post(` https://testapis.megahoot.net/api/users/updateUserbyhost`, {
+  .post(` https://testapi.amaprods.com/api/users/updateUserbyhost`, {
     firstName: firstName,
     lastName: lastName,
     AadharCard:AadharCard,
@@ -81,7 +81,7 @@ openModal=(id,firstName,lastName,Phone,Degreepackage,email,SponsorId,AadharCard,
       this.setState({ userExist: true });
 
       axios
-      .post(` https://testapis.megahoot.net/api/users/updateuserinpaytable`, {
+      .post(` https://testapi.amaprods.com/api/users/updateuserinpaytable`, {
        id:id,
        SponsorId:SponsorId,
        package:Degreepackage
@@ -115,7 +115,7 @@ openModal=(id,firstName,lastName,Phone,Degreepackage,email,SponsorId,AadharCard,
 approveOrderProduct=(value)=>{
   console.log(value,"sky")
   axios
-  .post(` https://testapis.megahoot.net/api/users/updatePackage`, {
+  .post(` https://testapi.amaprods.com/api/users/updatePackage`, {
   package:value.package,  
   status: "Paid",
   courseId:value.courseId,
@@ -127,7 +127,7 @@ approveOrderProduct=(value)=>{
     if (data.success) {
 
      axios
-     .post(` https://testapis.megahoot.net/api/users/downlineData`, {
+     .post(` https://testapi.amaprods.com/api/users/downlineData`, {
       id:value.id,
       SponsorId:value.SponsorId,
       package:value.package,
@@ -154,7 +154,7 @@ approveOrderProduct=(value)=>{
  getUsers=()=>{
    
 axios
-.get(`https://testapis.megahoot.net/api/users`, {
+.get(`https://testapi.amaprods.com/api/users`, {
 })
 .then((res) => {
   const data = res.data
@@ -226,7 +226,7 @@ axios
  findUserPayment=(id,isPaid,hisPackage,callback)=>{
 
   axios 
-  .post(' https://testapis.megahoot.net/api/users/payableweekuser',{
+  .post(' https://testapi.amaprods.com/api/users/payableweekuser',{
     id:id,
   })
   .then((res)=>{
@@ -242,7 +242,7 @@ if(e.package){
     });
     
   axios
-  .post(` https://testapis.megahoot.net/api/users/storeMyPay/`, {
+  .post(` https://testapi.amaprods.com/api/users/storeMyPay/`, {
     id:id,
     moneyToBePaid:hisTotalEarningThisWeek
   }).then(()=>{
@@ -253,7 +253,7 @@ if(e.package){
   })
 
 // axios 
-// .post(' https://testapis.megahoot.net/api/users/showAllPays',{
+// .post(' https://testapi.amaprods.com/api/users/showAllPays',{
 //   id:id,
 // })
 // .then((res)=>{
@@ -269,7 +269,7 @@ if(e.package){
  
    let limit = parseInt(user.renew) 
   
-   axios .post(`https://testapis.megahoot.net/api/users/allowRenew`,{
+   axios .post(`https://testapi.amaprods.com/api/users/allowRenew`,{
      id:user.id,
      limit:limit
    })
@@ -296,7 +296,7 @@ unPaidStyle={
 
  paidLastWeek=(id)=>{
   axios 
-  .post(' https://testapis.megahoot.net/api/users/paidLastWeek',{
+  .post(' https://testapi.amaprods.com/api/users/paidLastWeek',{
     id:id,
   }).then(()=>{
    alert('Updated SuccessFully')
@@ -304,7 +304,7 @@ unPaidStyle={
  }
  deleteUser=(id,name)=>{
   axios 
-  .delete(' https://testapis.megahoot.net/api/users/',{
+  .delete(' https://testapi.amaprods.com/api/users/',{
     id:id,
   }).then(()=>{
    alert(`${name} deleted Successfully from database`)

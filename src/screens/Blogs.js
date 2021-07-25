@@ -28,7 +28,7 @@ class Blogs extends Component {
     // localStorage.removeItem('token')
     const { email, password } = this.state
     axios
-      .post(` https://testapis.megahoot.net/api/users/login`, {
+      .post(` https://testapi.amaprods.com/api/users/login`, {
         email: email,
         password: password,
       })
@@ -81,7 +81,7 @@ class Blogs extends Component {
     if (confirmPassword !== password) {
       alert("Password Do not Match !")
     }else if(username && firstName&&lastName&&email&&confirmPassword&&password&&age&&State&&City&&Address&&Phone&&SponsorId ){
-      axios .get(' https://testapis.megahoot.net/api/users/')
+      axios .get(' https://testapi.amaprods.com/api/users/')
     .then((res)=>{
       res.data.data.forEach(element => {
         if(element.id==this.state.SponsorId){
@@ -95,7 +95,7 @@ class Blogs extends Component {
      .then(()=>{
       if(this.state.isSponsorIdExist){
         axios
-        .post(` https://testapis.megahoot.net/api/users/`, {
+        .post(` https://testapi.amaprods.com/api/users/`, {
           firstName: firstName,
           lastName: lastName,
           username: username,

@@ -23,7 +23,7 @@ if(decoded.result.status=="Paid"){
 }else{
 
   axios
-  .post(` https://testapis.megahoot.net/api/users/updatePackage`, {
+  .post(` https://testapi.amaprods.com/api/users/updatePackage`, {
     package: product.name,
     
     status:'unpaid',

@@ -22,7 +22,7 @@ class downline extends Component {
  getUsers=()=>{
    
 axios
-.get(` https://testapis.megahoot.net/api/users/`, {
+.get(` https://testapi.amaprods.com/api/users/`, {
 })
 .then((res) => {
   const data = res.data
@@ -56,7 +56,7 @@ axios
  shownNesteddownline=(id)=>{
    
   axios
-  .get(` https://testapis.megahoot.net/api/users/`, {
+  .get(` https://testapi.amaprods.com/api/users/`, {
   })
   .then((res) => {
     const data = res.data

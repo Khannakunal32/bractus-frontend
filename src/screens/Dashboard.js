@@ -41,7 +41,7 @@ class Dashboard extends Component {
 approveOrderProduct=(id)=>{
   
   axios
-  .post(` https://testapis.megahoot.net/api/users/updatePackage`, {
+  .post(` https://testapi.amaprods.com/api/users/updatePackage`, {
     package: "Paid",
     id:id ,
   })
@@ -66,7 +66,7 @@ approveOrderProduct=(id)=>{
  getUsers=()=>{
    
 axios
-.get(`https://testapis.megahoot.net/api/users/`, {
+.get(`https://testapi.amaprods.com/api/users/`, {
 })
 .then((res) => {
   const data = res.data
@@ -135,7 +135,7 @@ axios
 
 
  calculateTeamSize=(id,Dpackage)=>{
-  axios .post(' https://testapis.megahoot.net/api/users/getDownlineData',{
+  axios .post(' https://testapi.amaprods.com/api/users/getDownlineData',{
     id:id
   })
   .then((res)=>{
