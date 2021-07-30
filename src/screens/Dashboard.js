@@ -158,6 +158,9 @@ axios
   }else  if((Dpackage=="FOUR°" || Dpackage=="DEGREE 4") &&(downline.length<15)){
 
     this.setState({allowedTeamSize:15})
+  }else  if((Dpackage=="FOUR°" || Dpackage=="DEGREE 4") &&(downline.length)){
+
+    this.setState({allowedTeamSize:downline.length})
   }
 
   

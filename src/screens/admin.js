@@ -267,11 +267,12 @@ if(e.package){
  
  approveRenew=(user)=>{
  
-   let limit = parseInt(user.renew) 
+   let limit = user.renew
   
    axios .post(`https://testapi.amaprods.com/api/users/allowRenew`,{
      id:user.id,
-     limit:limit
+    //  limit:limit,
+     package:limit
    })
    .then(()=>{
      alert('successFully Renewal set')

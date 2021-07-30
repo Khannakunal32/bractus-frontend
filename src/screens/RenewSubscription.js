@@ -24,13 +24,14 @@ export default function RenewSubscription() {
       }
   }
   const renewHandler = () => {
-  
+  console.log(packageOrder,"sky")
     let id = Id;
     let teamLimit=Dlimit
     axios
       .post(`https://testapi.amaprods.com/api/users/renewal`, {
         id: id,
         teamLimit: Dlimit,
+        package:packageOrder
       })
       .then(() => {
         alert("Applied for renewal successfully");

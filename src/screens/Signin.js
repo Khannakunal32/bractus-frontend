@@ -123,7 +123,7 @@ class Signin extends Component {
     })
     .then((res)=>{
 let payData=res.data.message.status
-let teamLimit=res.res.message.teamLimit
+let teamLimit=res.data.message.teamLimit
 this.setState({teamLimit:teamLimit})
 
 if(payData=="Paid"){
@@ -134,17 +134,17 @@ if(payData=="Paid"){
   let sponsor_package=  res.data.package[0].package;
   // console.log(sponsor_package[0].package,"sky")
   let downline= res.data.data
-  if((sponsor_package=="ONE°" || sponsor_package=="DEGREE 1") &&(downline.length<6 || downline.length<teamLimit )){
+  if((sponsor_package=="ONE°" || sponsor_package=="DEGREE 1") &&(downline.length<6  )){
 
     this.setState({isSponsorIdExist:true})
-  }else  if((sponsor_package=="TWO°" || sponsor_package=="DEGREE 2") &&(downline.length<9 || downline.length<teamLimit )){
+  }else  if((sponsor_package=="TWO°" || sponsor_package=="DEGREE 2") &&(downline.length<9  )){
 
     this.setState({isSponsorIdExist:true})
   }
-  else  if((sponsor_package=="THREE°" || sponsor_package=="DEGREE 3") &&(downline.length<13 || downline.length<teamLimit )){
+  else  if((sponsor_package=="THREE°" || sponsor_package=="DEGREE 3") &&(downline.length<13)){
 
     this.setState({isSponsorIdExist:true})
-  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4") &&(downline.length<31 || downline.length<teamLimit )){
+  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4") &&(downline.length<16  )){
 
     this.setState({isSponsorIdExist:true})
   }
