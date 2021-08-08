@@ -55,6 +55,9 @@ const RefundPolicy = () => {
           </li>
         </li>
         <li>
+ A charge of 15.6 % is deducted as transactionional chargein case of refunding and this percent is equal of Cp price paid to company.
+        </li>
+        <li>
           Refund will be processed into the bank account linked with the
           holder's account and name on website.
         </li>

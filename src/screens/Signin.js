@@ -123,7 +123,7 @@ class Signin extends Component {
     })
     .then((res)=>{
 let payData=res.data.message.status
-let teamLimit=res.res.message.teamLimit
+let teamLimit=res.data.message.teamLimit
 this.setState({teamLimit:teamLimit})
 
 if(payData=="Paid"){
