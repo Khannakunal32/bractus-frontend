@@ -1,7 +1,6 @@
 import React from "react";
 import banner1 from "../Assets/Images/webd.jpg";
 import user from "../Assets/Images/user.png";
-import coding from '../Assets/Images/coding.png'
 export default function AakashBhardwaj() {
   return (
     <div
@@ -89,9 +88,6 @@ export default function AakashBhardwaj() {
           <div style={{ flex: 3,display:'flex',flexDirection:'column',minHeight: "65vh" ,justifyContent:"space-evenly",fontWeight:'bold',alignItems:'center',textAlign:'center'}}>
           <h1>30 days Web development Plan</h1>
           <li>HTML & CSS (7 days)</li>
-          <a  href="https://youtu.be/0vZqI-94KQ4" ><img style={{borderRadius:20,maxWidth:'300px'}} src={coding} /></a>
-          {/* <li><iframe src="https://www.youtube.com/embed/0vZqI-94KQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-          */}
           <li>JAVASCRIPT (7 days)</li>
           <li>REACT.JS (7 days)</li>
           <li>NODE.JS (7 days)</li>
