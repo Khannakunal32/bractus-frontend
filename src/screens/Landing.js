@@ -14,7 +14,7 @@ import Aboutus from "./aboutus";
 import aboutus from "./aboutus";
 import HomeScreen from "./HomeScreen";
 
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
