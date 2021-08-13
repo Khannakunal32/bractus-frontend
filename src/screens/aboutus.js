@@ -21,9 +21,9 @@ export default function Aboutus() {
         >
           HOW AND WHY WE?
         </h1> */}
-
-        <h1 style={{ textAlign: "center" }}>WANT BIG IMPACT? THINK BIG.</h1>
-        <hr></hr>
+  <h1 style={{fontSize:'3rem',fontWeight:'bold',fontFamily:"fantasy",textAlign:'center'}}>WANT BIG IMPACT? THINK BIG.</h1>
+    
+     
         <p style={{ lineHeight: "30px" }}>
           Bractus- " ALL FOR ONE AND ONE FOR ALL"The way bractus practices is
           one of its kind.Solely a platform for sprouting minds, shaping and
