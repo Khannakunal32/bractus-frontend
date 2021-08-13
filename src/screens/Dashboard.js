@@ -235,6 +235,8 @@ axios
       
        {this.state.paymentStatus=="Paid"? <a href="/kunalMentorship">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={mentorship} alt="Mentorship" className="profile-page-btn"></img>Kunal Khanna's</span></a>
       :null}
+       {this.state.paymentStatus=="Paid"? <a href="/webDevelopment">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={mentorship} alt="Mentorship" className="profile-page-btn"></img>Aakash Bhardwaj's</span></a>
+      :null}
        
        {localStorage.getItem('isLoggedIn')=='true'?<span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}><img src={logOut} id="logOutBtn" onClick={()=>{this.logoutFuncton()}}></img>LogOut</span>:null}   
       
