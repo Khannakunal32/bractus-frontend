@@ -158,6 +158,9 @@ axios
   }else  if((Dpackage=="FOUR°" || Dpackage=="DEGREE 4") &&(downline.length<15)){
 
     this.setState({allowedTeamSize:15})
+  }else  if((Dpackage=="FOUR°" || Dpackage=="DEGREE 4") &&(downline.length)){
+
+    this.setState({allowedTeamSize:downline.length})
   }
 
   
@@ -231,6 +234,8 @@ axios
        <a href="/submitBankDetails">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={loginIMage} className="profile-page-btn"></img>Update Bank Details</span></a>
       
        {this.state.paymentStatus=="Paid"? <a href="/kunalMentorship">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={mentorship} alt="Mentorship" className="profile-page-btn"></img>Kunal Khanna's</span></a>
+      :null}
+       {this.state.paymentStatus=="Paid"? <a href="/webDevelopment">  <span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}> <img src ={mentorship} alt="Mentorship" className="profile-page-btn"></img>Aakash Bhardwaj's</span></a>
       :null}
        
        {localStorage.getItem('isLoggedIn')=='true'?<span style={{display:'flex',flexDirection:'column',textAlign:'center',color:'black'}}><img src={logOut} id="logOutBtn" onClick={()=>{this.logoutFuncton()}}></img>LogOut</span>:null}   
