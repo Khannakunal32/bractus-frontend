@@ -13,8 +13,9 @@ import contentw from "../Assets/Images/contentw.png";
 import Aboutus from "./aboutus";
 import aboutus from "./aboutus";
 import HomeScreen from "./HomeScreen";
+import logo from '../Assets/Images/logob.png'
 
-import { Carousel } from "react-responsive-carousel";
+
 
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
@@ -61,10 +62,12 @@ export default function Landing() {
         <div style={{ color: "#EEBC27", fontWeight: "bold" }}>
               <span style={{ fontSize: "3rem" }}>WANT BIG IMPACT?</span>
               <br></br>
-              <span style={{ fontSize: "5rem" }}>THINK</span>
+              <span style={{ fontSize: "8rem" }}>THINK</span>
               <br></br>
               <span style={{ fontSize: "7rem" }}>BIG.</span>
             </div>
+            <span style={{width:'400px',height:'400px',padding:'50px',minWidth:'250px',position:'absolute',right:'50px',backgroundColor:'#040c23',borderRadius:'50%',}}> <img src={logo} style={{marginTop:'70px',width:'400px',height:'auto',minWidth:'250px'}} ></img></span>
+           
           {/* <img src={bannerMain} style={{width:'50%'}}></img> */}
           {/* {showVideo ? (
             <iframe
