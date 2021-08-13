@@ -40,11 +40,11 @@ function App(props) {
           <div style={{ display: "flex", justifyContent: "space-around" }}>
             {" "}
             <a className="mob-header-item" href="/signin">
-              <img src={profileIcon} alt="BRACTUS" width="19px" style={{marginTop:'10px'}} />
+              <img src={profileIcon} alt="BRACTUS" width="19px" style={{marginTop:'10px',backgroundColor:'grey',borderRadius:'20px'}} />
             </a>
             <a className="mob-header-item" href="/">
               <img
-                src={logob}
+                src={logo}
                 alt="BRACTUS"
                 width="60px"
                 style={{ marginLeft: "17px" }}
@@ -89,7 +89,7 @@ function App(props) {
                 style={{
                   minWidth: "15px",
                   minHeight: "0.01rem",
-                  backgroundColor: "#fff",
+                  backgroundColor: "grey",
                   margin: "10px",
                 }}
               ></div>
@@ -99,7 +99,7 @@ function App(props) {
                 style={{
                   minWidth: "15px",
                   minHeight: "0.01rem",
-                  backgroundColor: "#fff",
+                  backgroundColor: "grey",
                   margin: "10px",
                 }}
               ></div>
@@ -127,33 +127,48 @@ function App(props) {
           </div>
 
           <div className="nav-for-desktop">
-            <a href="/">
+            <div>
+              <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}> 
+              <a href="/" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
               <img
-                style={{ padding: 0, marginTop: 20 }}
-                width="100px"
+                width="60px"
                 src={logo}
               ></img>
+              <h1 >BRACTUS</h1>
             </a>
+            <div className="input-box-search-nav"> <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png"/>
+            <input type="search"></input></div>
+           </div>
+             
+            </div>
+            
+<div>
+<a href="/">Join</a>
+  <a href="/aboutus">Know Us</a>
+            {/* <a href="/comingsoon">Events</a> */}
 
-            <a href="/aboutus">Know Us</a>
-            <a href="/comingsoon">Events</a>
-
-            <a href="/leaderBoard">Bulletin-offers</a>
-
-            <a href="/Packages">
-              <img
-                style={{ padding: 0, margin: 0 }}
-                width="25px"
-                src={cart}
-              ></img>
-            </a>
+            {/* <a href="/leaderBoard">Bulletin-offers</a> */}
             <a href="/signin">
-              <img
+              {/* <img
                 style={{ padding: 0, margin: 0 }}
                 width="18px"
                 src={profileIcon}
-              ></img>
+              ></img> */}
+              Login
             </a>
+            {/* <a href="/Packages">
+             
+              Packages
+            </a> */}
+            <a href="/signin">
+              {/* <img
+                style={{ padding: 0, margin: 0 }}
+                width="18px"
+                src={profileIcon}
+              ></img> */}
+              SignUp
+            </a></div>
+            
             {/* <a href="/cart">Cart</a>
             <a href="/signin">Sign In</a> */}
           </div>
