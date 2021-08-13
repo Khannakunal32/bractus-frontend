@@ -13,8 +13,7 @@ import contentw from "../Assets/Images/contentw.png";
 import Aboutus from "./aboutus";
 import aboutus from "./aboutus";
 import HomeScreen from "./HomeScreen";
-
-// import { Carousel } from "react-responsive-carousel";
+import logo from "../Assets/Images/logob.png";
 
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
@@ -56,17 +55,41 @@ export default function Landing() {
   return (
     <LazyLoad>
       {" "}
-      <div className="landing">
-        <div className="banner-home">
-        <div style={{ color: "#EEBC27", fontWeight: "bold" }}>
+      <div className="landing" style={{paddingTop: 60}} >
+        {/* <div className="banner-home">
+          {/* <div style={{ color: "#EEBC27", fontWeight: "bold" }}>
               <span style={{ fontSize: "3rem" }}>WANT BIG IMPACT?</span>
               <br></br>
-              <span style={{ fontSize: "5rem" }}>THINK</span>
+              <span style={{ fontSize: "8rem" }}>THINK</span>
               <br></br>
               <span style={{ fontSize: "7rem" }}>BIG.</span>
-            </div>
-          {/* <img src={bannerMain} style={{width:'50%'}}></img> */}
-          {/* {showVideo ? (
+            </div> */}
+        {/* <span
+            style={{
+              width: "400px",
+              height: "400px",
+              padding: "50px",
+              minWidth: "250px",
+              position: "absolute",
+              right: "50px",
+              backgroundColor: "#040c23",
+              borderRadius: "50%",
+            }}
+          >
+            {" "}
+            <img
+              src={logo}
+              style={{
+                marginTop: "70px",
+                width: "400px",
+                height: "auto",
+                minWidth: "250px",
+              }}
+            ></img>
+          </span> */}{" "}
+        
+        {/* <img src={bannerMain} style={{width:'50%'}}></img> */}
+        {/* {showVideo ? (
             <iframe
               src="https://www.youtube.com/embed/cM_5GI1hyac"
               title="YouTube video player"
@@ -83,8 +106,7 @@ export default function Landing() {
               <span style={{ fontSize: "7rem" }}>BIG.</span>
             </div>
           )} */}
-
-          {/* <a style={{ outline: "none", border: "none" }}>
+        {/* <a style={{ outline: "none", border: "none" }}>
             <button
             className="learn-more-btn"
               onClick={() => {
@@ -94,53 +116,71 @@ export default function Landing() {
               Learn More
             </button>
           </a> */}
+        {/* </div> */}
+        <div style={{ margin: "10px", textAlign: "center" }}>
+          {" "}
+          <h1
+            style={{
+              fontSize: "3rem",
+              fontWeight: "bold",
+              fontFamily: "fantasy",
+            }}
+          >
+            A broad Variety of Vocational Mentorships
+          </h1>
+          <h5>
+            Choose from multiple online live mentorship with new additions added
+            every month
+          </h5>
         </div>
-        <div style={{margin:'10px',textAlign:'center'}}>   <h1 style={{fontSize:'3rem',fontWeight:'bold',fontFamily:"fantasy"}}>A broad Variety of Vocational Mentorships</h1>
-        <h5>Choose from multiple online live mentorship with new additions added every month</h5></div>
-     
-        <div className="card-course-container">
+        <div className="card-course-container" style={{marginBlockEnd: 100}}>
           <div className="card-course">
-            <img src={marketing} style={{ maxWidth: "90%",maxHeight:'200px' }} />
+            <img
+              src={marketing}
+              style={{ maxWidth: "90%", maxHeight: "200px" }}
+            />
             <h1>Sales&Marketing </h1>
             <li>Course Duration: 14 days</li>
             <li>Course Description</li>
-            <li>Price:₹5000/-</li>
+            <li>Price:₹4000/-</li>
             <li>By Kunal Khanna</li>
           </div>
           <div className="card-course">
-            <img src={coding}style={{ maxWidth: "90%",maxHeight:'200px' }} />
+            <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
             <h1>Web Development </h1>
             <li>Course Duration: 30 days</li>
             <li>Course Description</li>
-            <li>Price:₹6000/-</li>
+            <li>Price:₹5000/-</li>
             <li>By Aakash Bhardwaj</li>
           </div>
           <div className="card-course">
-            <img src={finearts} style={{maxWidth: "90%",maxHeight:'200px' }} />
+            <img
+              src={finearts}
+              style={{ maxWidth: "90%", maxHeight: "200px" }}
+            />
             <h1>Fine Arts </h1>
-            <li>Course Duration: XX days</li>
+            <li>Course Duration: 20 days</li>
             <li>Course Description</li>
-            <li>Price:₹XXXX/-</li>
-            <li>By XXXXX</li>
+            <li>Price:₹3000/-</li>
+            {/* <li>By XXXXX</li> */}
           </div>
           <div className="card-course">
             <img src={beauty} style={{ maxWidth: "100%" }} />
             <h1>Beauty and Makeup </h1>
-            <li>Course Duration: XX days</li>
+            <li>Course Duration: 30 days</li>
             <li>Course Description</li>
-            <li>Price:₹XXXX/-</li>
-            <li>By XXXX</li>
+            <li>Price:₹6000/-</li>
+            {/* <li>By </li> */}
           </div>
           <div className="card-course">
-            <img src={contentw} style={{ maxWidth: "100%" }} />
+            <img src={contentw} style={{ width: "100%", height: 200}} />
             <h1>Content Writing </h1>
-            <li>Course Duration: XX days</li>
+            <li>Course Duration: 20 days</li>
             <li>Course Description</li>
-            <li>Price:₹XXXX/-</li>
-            <li>By XXXX</li>
+            <li>Price:₹4000/-</li>
+            {/* <li>By XXXX</li> */}
           </div>
         </div>
-
         <div
           style={{
             width: "100%",
@@ -154,8 +194,9 @@ export default function Landing() {
           
           </LazyLoad>
            */}
-          <Aboutus />
+          
         </div>
+        <Aboutus />
       </div>
     </LazyLoad>
   );

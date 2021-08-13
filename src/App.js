@@ -36,11 +36,11 @@ function App(props) {
   return (
     <BrowserRouter>
       <div className="grid-container">
-        <header style={{ position: "fixed", width: "100%" }}>
+        <header style={{ position: "fixed", width: "100%" , zIndex: 1,}}>
           <div style={{ display: "flex", justifyContent: "space-around" }}>
             {" "}
             <a className="mob-header-item" href="/signin">
-              <img src={profileIcon} alt="BRACTUS" width="19px" style={{marginTop:'10px',backgroundColor:'grey',borderRadius:'20px'}} />
+              <img src={profileIcon} alt="BRACTUS" width="19px" style={{marginTop:'10px',borderRadius:'20px'}} />
             </a>
             <a className="mob-header-item" href="/">
               <img
@@ -129,15 +129,16 @@ function App(props) {
           <div className="nav-for-desktop">
             <div>
               <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}> 
-              <a href="/" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+              <a href="/" style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'10px'}}>
               <img
-                width="60px"
+                width="100px"
+                
                 src={logo}
               ></img>
               <h1 >BRACTUS</h1>
             </a>
             <div className="input-box-search-nav"> <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png"/>
-            <input type="search"></input></div>
+            <input type="search" placeholder="Search"></input></div>
            </div>
              
             </div>
