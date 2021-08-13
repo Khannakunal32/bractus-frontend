@@ -30,6 +30,7 @@ import AvailableCourses from "./screens/availableCourse";
 import kunalMentorship from "./screens/kunalMentorship";
 import leaderBoard from "./screens/leaderBoard";
 import RenewSubscription from "./screens/RenewSubscription";
+import AakashBhardwaj from "./screens/AakashBhardwaj";
 
 function App(props) {
   return (
@@ -163,6 +164,7 @@ function App(props) {
           <Route path="/" component={Landing} exact></Route>
           <Route path="/Credit" component={credit} exact></Route>
           <Route path="/kunalMentorship" component={kunalMentorship}></Route>
+          <Route path="/webDevelopment" component={AakashBhardwaj}></Route>
           <Route
             path="/Admin485vb98563vb359bv69485658b598cjhfsdfj"
             component={Admin}
