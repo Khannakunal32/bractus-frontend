@@ -31,8 +31,21 @@ import kunalMentorship from "./screens/kunalMentorship";
 import leaderBoard from "./screens/leaderBoard";
 import RenewSubscription from "./screens/RenewSubscription";
 import AakashBhardwaj from "./screens/AakashBhardwaj";
+import { useState } from "react";
 
 function App(props) {
+const [searchValue,setSearchValue]=useState('')
+ const handleChange=(event)=> {
+    setSearchValue(event.target.value);
+     
+    if(searchValue.toUpperCase() =="KUNA"){
+window.location.href='/kunalMentorship'
+    }else if(searchValue.toUpperCase() =="AAKAS"){
+      window.location.href='/webDevelopment'
+    }else if(searchValue.toUpperCase() =="WEB"){
+      window.location.href='/webDevelopment'
+    }
+  }
   return (
     <BrowserRouter>
       <div className="grid-container">
@@ -138,7 +151,7 @@ function App(props) {
               <h1 >BRACTUS</h1>
             </a>
             <div className="input-box-search-nav"> <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png"/>
-            <input type="search" placeholder="Search"></input></div>
+            <input type="search" placeholder="Search" value={searchValue} onChange={handleChange}  ></input></div>
            </div>
              
             </div>
