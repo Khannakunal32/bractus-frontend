@@ -14,7 +14,9 @@ import Aboutus from "./aboutus";
 import aboutus from "./aboutus";
 import HomeScreen from "./HomeScreen";
 import logo from "../Assets/Images/logob.png";
-
+import palak_video from "../Assets/video/palak.webm"
+import pragya_video from "../Assets/video/pragya.MOV"
+import sky_video from "../Assets/video/sky.mp4"
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -119,6 +121,9 @@ export default function Landing() {
         {/* </div> */}
         <div style={{ margin: "10px", textAlign: "center" }}>
           {" "}
+         
+         
+         
           <h1
             style={{
               fontSize: "3rem",
@@ -180,21 +185,59 @@ export default function Landing() {
             <li>Price:₹4000/-</li>
             {/* <li>By XXXX</li> */}
           </div>
-        </div>
-        <div
+          
+        </div><h1
+            style={{
+              fontSize: "3rem",
+              fontWeight: "bold",
+              fontFamily: "fantasy",
+              textAlign:'center',
+              color:'red'
+            }}
+          >
+            Our Top Mentors Live
+          </h1>
+        <div onContextMenu={(e)=>{e.preventDefault();}}
           style={{
             width: "100%",
             display: "flex",
-            flexDirection: "column",
+            flexDirection: "row",
             alignItems: "center",
+            flexWrap:'wrap',
+            backgroundColor:'#040C23',
+            justifyContent:'center',
+
+
           }}
         >
           {/* <LazyLoad>
             <HomeScreen />
           
           </LazyLoad>
-           */}
-          
+           */} 
+         <iframe width="350" height="190" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <LazyLoad><video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={sky_video} 
+          title="Aakash bhardwaj" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>  
+          <LazyLoad>  <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={palak_video} 
+          title="Palak bakshi" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>  
+           <LazyLoad> <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={pragya_video} 
+          title="Pragya" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>  
+        
         </div>
         <Aboutus />
       </div>

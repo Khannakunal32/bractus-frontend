@@ -237,7 +237,7 @@ function App(props) {
               <li>
               Founder's handle: <br></br>
              
-              <a href="https://www.instagram.com/aakash._.bhardwaj/"><img src={instaicon} width="15px" alt="Aakash Bhardwaj"></img> Aasksh Bharadwaj</a> <br></br>
+              <a href="https://www.instagram.com/aakash._.bhardwaj/"><img src={instaicon} width="15px" alt="Aakash Bhardwaj"></img> Aakash Bharadwaj</a> <br></br>
            <br></br>
               
               <a href="https://www.instagram.com/_kunal.khanna_/"><img src={instaicon} width="15px" alt="Kunal Khanna"></img> Kunal khanna</a> <br></br>
