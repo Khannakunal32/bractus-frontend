@@ -32,6 +32,7 @@ import leaderBoard from "./screens/leaderBoard";
 import RenewSubscription from "./screens/RenewSubscription";
 import AakashBhardwaj from "./screens/AakashBhardwaj";
 import { useState } from "react";
+import SayashaMahajan from "./screens/SayashaMahajan";
 
 function App(props) {
   const [searchValue, setSearchValue] = useState("");
@@ -44,6 +45,8 @@ function App(props) {
       window.location.href = "/webDevelopment";
     } else if (searchValue.toUpperCase() == "WEB") {
       window.location.href = "/webDevelopment";
+    } else if (searchValue.toUpperCase() == "Sayash") {
+      window.location.href = "/SayashaMahajan";
     }
   };
   return (
@@ -216,6 +219,8 @@ function App(props) {
           <Route path="/" component={Landing} exact></Route>
           <Route path="/Credit" component={credit} exact></Route>
           <Route path="/kunalMentorship" component={kunalMentorship}></Route>
+          <Route path="/SayashaMahajan" component={SayashaMahajan}></Route>
+          
           <Route path="/webDevelopment" component={AakashBhardwaj}></Route>
           <Route
             path="/Admin485vb98563vb359bv69485658b598cjhfsdfj"
@@ -239,6 +244,7 @@ function App(props) {
           ) : null}
           <Route path="/Payment" component={Payment} exact></Route>
           <Route path="/FAQS" component={FAQS} exact></Route>
+          
           <Route path="/comingsoon" component={comingsoon} exact></Route>
           <Route path="/aboutus" component={Aboutus} exact></Route>
           <Route path="/Disclaimer" component={Disclaimer} exact></Route>
