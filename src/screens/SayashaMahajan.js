@@ -86,6 +86,7 @@ export default function SayashaMahajan() {
           ></div>
           <div style={{ flex: 3,marginLeft:'100px',display:'flex',flexDirection:'column',minHeight: "65vh",maxWidth:'60%' ,justifyContent:"space-evenly",fontWeight:'bold',alignItems:'left',textAlign:'left'}}>
           <h1>15  Social Media And Business Development</h1>
+          <li><iframe width="80%" src="https://www.youtube.com/embed/KJVast37qcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
          <li>This is a course by Sayasha Mahajan which would make you understand,
               implement and use social media in a productive way to generate and
                target potential customers for your business. This would help you to </li>

@@ -45,7 +45,7 @@ function App(props) {
       window.location.href = "/webDevelopment";
     } else if (searchValue.toUpperCase() == "WEB") {
       window.location.href = "/webDevelopment";
-    } else if (searchValue.toUpperCase() == "Sayash") {
+    } else if (searchValue.toUpperCase() == "SAYASH") {
       window.location.href = "/SayashaMahajan";
     }
   };
