@@ -20,8 +20,8 @@ import comingsoon from "./screens/comingsoon";
 import updateProfile from "./screens/updateProfile";
 import submitBankDetails from "./screens/submitBankDetails";
 import Payment from "./screens/payment";
-import LazyLoad from 'react-lazyload';
-import instaicon from './Assets/Images/instagram.svg';
+import LazyLoad from "react-lazyload";
+import instaicon from "./Assets/Images/instagram.svg";
 import Aboutus from "./screens/aboutus";
 import Blogs from "./screens/Blogs";
 import posts from "./screens/posts";
@@ -34,26 +34,31 @@ import AakashBhardwaj from "./screens/AakashBhardwaj";
 import { useState } from "react";
 
 function App(props) {
-const [searchValue,setSearchValue]=useState('')
- const handleChange=(event)=> {
+  const [searchValue, setSearchValue] = useState("");
+  const handleChange = (event) => {
     setSearchValue(event.target.value);
-     
-    if(searchValue.toUpperCase() =="KUNA"){
-window.location.href='/kunalMentorship'
-    }else if(searchValue.toUpperCase() =="AAKAS"){
-      window.location.href='/webDevelopment'
-    }else if(searchValue.toUpperCase() =="WEB"){
-      window.location.href='/webDevelopment'
+
+    if (searchValue.toUpperCase() == "KUNA") {
+      window.location.href = "/kunalMentorship";
+    } else if (searchValue.toUpperCase() == "AAKAS") {
+      window.location.href = "/webDevelopment";
+    } else if (searchValue.toUpperCase() == "WEB") {
+      window.location.href = "/webDevelopment";
     }
-  }
+  };
   return (
     <BrowserRouter>
       <div className="grid-container">
-        <header style={{ position: "fixed", width: "100%" , zIndex: 1,}}>
+        <header style={{ position: "fixed", width: "100%", zIndex: 1 }}>
           <div style={{ display: "flex", justifyContent: "space-around" }}>
             {" "}
             <a className="mob-header-item" href="/signin">
-              <img src={profileIcon} alt="BRACTUS" width="19px" style={{marginTop:'10px',borderRadius:'20px'}} />
+              <img
+                src={profileIcon}
+                alt="BRACTUS"
+                width="19px"
+                style={{ marginTop: "10px", borderRadius: "20px" }}
+              />
             </a>
             <a className="mob-header-item" href="/">
               <img
@@ -127,7 +132,6 @@ window.location.href='/kunalMentorship'
               </a>
             </div> */}
 
-            
               <a href="/aboutus">Know Us</a>
 
               <a href="/comingsoon">Events</a>
@@ -141,48 +145,67 @@ window.location.href='/kunalMentorship'
 
           <div className="nav-for-desktop">
             <div>
-              <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}> 
-              <a href="/" style={{display:'flex',justifyContent:'center',alignItems:'center',marginTop:'10px'}}>
-              <img
-                width="100px"
-                
-                src={logo}
-              ></img>
-              <h1 >BRACTUS</h1>
-            </a>
-            <div className="input-box-search-nav"> <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png"/>
-            <input type="search" placeholder="Search" value={searchValue} onChange={handleChange}  ></input></div>
-           </div>
-             
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <a
+                  href="/"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginTop: "10px",
+                  }}
+                >
+                  <img width="100px" src={logo}></img>
+                  {/* <h1 >BRACTUS</h1> */}
+                </a>
+                <div className="input-box-search-nav">
+                  <img src="https://img.icons8.com/material-outlined/20/000000/search--v2.png" />
+                  <input
+                    type="search"
+                    className="input-box-search-nav"
+                    placeholder="Search"
+                    value={searchValue}
+                    onChange={handleChange}
+                  ></input>
+                </div>
+              </div>
             </div>
             
-<div>
-<a href="/">Join</a>
-  <a href="/aboutus">Know Us</a>
-            {/* <a href="/comingsoon">Events</a> */}
 
-            {/* <a href="/leaderBoard">Bulletin-offers</a> */}
-            <a href="/signin">
-              {/* <img
+            <div>
+              <a href="/">Join</a>
+              <a href="/aboutus">Know Us</a>
+              {/* <a href="/comingsoon">Events</a> */}
+
+              {/* <a href="/leaderBoard">Bulletin-offers</a> */}
+              <a href="/signin">
+                {/* <img
                 style={{ padding: 0, margin: 0 }}
                 width="18px"
                 src={profileIcon}
               ></img> */}
-              Login
-            </a>
-            {/* <a href="/Packages">
+                Login
+              </a>
+              {/* <a href="/Packages">
              
               Packages
             </a> */}
-            <a href="/signin">
-              {/* <img
+              <a href="/signin">
+                {/* <img
                 style={{ padding: 0, margin: 0 }}
                 width="18px"
                 src={profileIcon}
               ></img> */}
-              SignUp
-            </a></div>
-            
+                SignUp
+              </a>
+            </div>
+
             {/* <a href="/cart">Cart</a>
             <a href="/signin">Sign In</a> */}
           </div>
@@ -198,8 +221,11 @@ window.location.href='/kunalMentorship'
             path="/Admin485vb98563vb359bv69485658b598cjhfsdfj"
             component={Admin}
           ></Route>
-          
-          <Route path="/submitBankDetails" component={submitBankDetails}></Route>
+
+          <Route
+            path="/submitBankDetails"
+            component={submitBankDetails}
+          ></Route>
           <Route path="/Downline" component={downline}></Route>
           <Route path="/leaderBoard" component={leaderBoard}></Route>
           {localStorage.getItem("isLoggedIn") == "true" ? (
@@ -208,10 +234,10 @@ window.location.href='/kunalMentorship'
             <Route path="/signin" component={Signin} exact></Route>
           )}
 
-{localStorage.getItem("isLoggedIn") == "true" ? (
+          {localStorage.getItem("isLoggedIn") == "true" ? (
             <Route path="/publishBlog" component={Blogs}></Route>
           ) : null}
-  <Route path="/Payment" component={Payment} exact></Route>
+          <Route path="/Payment" component={Payment} exact></Route>
           <Route path="/FAQS" component={FAQS} exact></Route>
           <Route path="/comingsoon" component={comingsoon} exact></Route>
           <Route path="/aboutus" component={Aboutus} exact></Route>
@@ -224,9 +250,10 @@ window.location.href='/kunalMentorship'
           {/* <Route path="/CreateCourse" component={createCourse}></Route> */}
           <Route path="/availableCourses" component={AvailableCourses}></Route>
           <Route path="/CreateCourse" component={createCourse}></Route>
-          <Route path="/RenewSubscription" component={RenewSubscription}></Route>
-          
-      
+          <Route
+            path="/RenewSubscription"
+            component={RenewSubscription}
+          ></Route>
         </main>
 
         <footer>
@@ -235,28 +262,34 @@ window.location.href='/kunalMentorship'
               <h1>Disclaimer</h1>
               <p style={{ lineHeight: "25px", lineBreak: "auto" }}>
                 Bractus offers you a beautiful and an organized platform of
-                earning while learning through our e-trainings and Skill-training
-                based program. We don't charge you any amount to be a part of
-                our ecosystem, the amount you may pay for the mentors, guidance and
-                the resourses you are getting from Bractus.
+                earning while learning through our e-trainings and
+                Skill-training based program. We don't charge you any amount to
+                be a part of our ecosystem, the amount you may pay for the
+                mentors, guidance and the resourses you are getting from
+                Bractus.
               </p>
             </ul>
             <ul className="footer-ul">
               <h1>Get In Touch</h1>
               <li>Email: bractusIndia@gmail.com</li>
               <li style={{ lineHeight: "25px", lineBreak: "auto" }}>
-              Contact: BRACTUS
+                Contact: BRACTUS
               </li>
               <li>
-              Founder's handle: <br></br>
-             
-              <a href="https://www.instagram.com/aakash._.bhardwaj/"><img src={instaicon} width="15px" alt="Aakash Bhardwaj"></img> Aakash Bharadwaj</a> <br></br>
-           <br></br>
-              
-              <a href="https://www.instagram.com/_kunal.khanna_/"><img src={instaicon} width="15px" alt="Kunal Khanna"></img> Kunal khanna</a> <br></br>
-           <br></br>
-             {/* <a href="https://www.instagram.com/aakash._.bhardwaj/"><img src={instaicon} width="15px" alt="Aakash Bhardwaj" /> Aakash bhardwaj</a>  */}
-
+                Founder's handle: <br></br>
+                <a href="https://www.instagram.com/aakash._.bhardwaj/">
+                  <img src={instaicon} width="15px" alt="Aakash Bhardwaj"></img>{" "}
+                  Aakash Bharadwaj
+                </a>{" "}
+                <br></br>
+                <br></br>
+                <a href="https://www.instagram.com/_kunal.khanna_/">
+                  <img src={instaicon} width="15px" alt="Kunal Khanna"></img>{" "}
+                  Kunal khanna
+                </a>{" "}
+                <br></br>
+                <br></br>
+                {/* <a href="https://www.instagram.com/aakash._.bhardwaj/"><img src={instaicon} width="15px" alt="Aakash Bhardwaj" /> Aakash bhardwaj</a>  */}
               </li>
             </ul>
             <ul className="footer-ul">
