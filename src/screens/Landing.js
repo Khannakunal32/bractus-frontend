@@ -16,6 +16,7 @@ import HomeScreen from "./HomeScreen";
 import logo from "../Assets/Images/logob.png";
 import palak_video from "../Assets/video/palak.webm"
 import pragya_video from "../Assets/video/pragya.MOV"
+import sky_video from "../Assets/video/sky.mp4"
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -215,35 +216,13 @@ export default function Landing() {
           </LazyLoad>
            */} 
          <iframe width="350" height="190" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
-         src="https://www.youtube.com/embed/ZlvuUJbfOrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-       <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
-         src="https://www.youtube.com/embed/w0-WaSHzBKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-       <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
-         src="https://www.youtube.com/embed/KJVast37qcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
-         src="https://www.youtube.com/embed/KsEH3KUMQaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
-         src="https://www.youtube.com/embed/o7skAG6QKmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
-           {/* <LazyLoad>
-           
-         
-           
-           <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+         <LazyLoad><video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
           src={sky_video} 
           title="Aakash bhardwaj" 
         autoPlay
            loop
            muted
-         allowfullscreen></video></LazyLoad>   */}
+         allowfullscreen></video></LazyLoad>  
           <LazyLoad>  <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
           src={palak_video} 
           title="Palak bakshi" 

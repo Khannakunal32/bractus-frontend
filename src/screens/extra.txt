@@ -1,159 +1,267 @@
-import React, { Component } from 'react'
-import jwt_decode from "jwt-decode";
-import userImage from '../Assets/Images/user.png'
-import team from '../Assets/Images/team.png'
-import admin from '../Assets/Images/admin.png'
-import order from '../Assets/Images/order.png'
-import cashback from '../Assets/Images/cashback.png'
-import logOut from '../Assets/Images/logOut.png'
-import axios from 'axios';
-import { Table} from 'react-bootstrap';
-class Dashboard extends Component {
-   logoutFuncton = ()=>{
-    localStorage.removeItem('token');
-    localStorage.removeItem('isLoggedIn');
-    this.props.history.push('/')
-   
-  }
- state={
-   showProfile:false,
-   admin:false,
-   allusers:[]
- }
+import React, { useEffect, useState } from "react";
 
-approveOrderProduct=(id)=>{
-  
-  axios
-  .post(` https://testapi.amaprods.com/api/users/updatePackage`, {
-    package: "Paid",
-    id:id ,
-  })
-  .then((res) => {
-    const data = res.data
-    // Cookies.set('user', user.payload, { expires: 7 }, { path: '/*' });
-    if (data.success) {
-    
-     alert('successfully approved order')
-    } else {
-      alert('Invalid request')
-   
-      // this.loaderDeactive()
-    }
-  })
-  .catch(function (error) {
-    console.log(error)
-    alert('connection problem in api')
-  })
-    }
+import LazyLoad from "react-lazyload";
 
- getUsers=()=>{
-   
-axios
-.get(` https://testapi.amaprods.com/api/users/`, {
-})
-.then((res) => {
-  const data = res.data
-  // Cookies.set('user', user.payload, { expires: 7 }, { path: '/*' });
-  if (data.success) {
-  console.log(data.data)
-  this.setState({
-    allusers:data.data
-  })
+import b0 from "../Assets/Images/black.jpg";
+import b1 from "../Assets/Images/grey.jpg";
+import bannerMain from "../Assets/Images/main.jpg";
+import marketing from "../Assets/Images/marketing.jpg";
+import finearts from "../Assets/Images/finearts.png";
+import coding from "../Assets/Images/coding.jpg";
+import beauty from "../Assets/Images/beauty.png";
+import contentw from "../Assets/Images/contentw.png";
+import Aboutus from "./aboutus";
+import aboutus from "./aboutus";
+import HomeScreen from "./HomeScreen";
+import logo from "../Assets/Images/logob.png";
+import palak_video from "../Assets/video/palak.webm"
+import pragya_video from "../Assets/video/pragya.MOV"
+export default function Landing() {
+  const [showVideo, setShowVideo] = useState(false);
 
-  } else {
-    alert('Invalid request')
- 
-    // this.loaderDeactive()
-  }
-})
-.catch(function (error) {
-  console.log(error)
-  alert('connection problem in api')
-})
- }
+  const style = {
+    banner: {
+      width: "100%",
+      minHeight: "90vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-evenly",
+      flexDirection: "column",
+      backgroundImage: `url(${b0})`,
+      backgroundSize: "cover",
+    },
+    button: {
+      backgroundColor: "#0e71eb",
+      minHeight: "30%",
+      color: "#fef0c1",
+      width: "150px",
+      borderRadius: 15,
+      outline: "none",
+      margin: 10,
+      border: "none",
+    },
+    banner3: {
+      width: "100%",
+      zIndex: 1001,
+      minHeight: "80vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-evenly",
+      flexDirection: "column",
+      backgroundImage: `url(${b1})`,
+      backgroundSize: "cover",
+      color: "white",
+    },
+  };
+  return (
+    <LazyLoad>
+      {" "}
+      <div className="landing" style={{paddingTop: 60}} >
+        {/* <div className="banner-home">
+          {/* <div style={{ color: "#EEBC27", fontWeight: "bold" }}>
+              <span style={{ fontSize: "3rem" }}>WANT BIG IMPACT?</span>
+              <br></br>
+              <span style={{ fontSize: "8rem" }}>THINK</span>
+              <br></br>
+              <span style={{ fontSize: "7rem" }}>BIG.</span>
+            </div> */}
+        {/* <span
+            style={{
+              width: "400px",
+              height: "400px",
+              padding: "50px",
+              minWidth: "250px",
+              position: "absolute",
+              right: "50px",
+              backgroundColor: "#040c23",
+              borderRadius: "50%",
+            }}
+          >
+            {" "}
+            <img
+              src={logo}
+              style={{
+                marginTop: "70px",
+                width: "400px",
+                height: "auto",
+                minWidth: "250px",
+              }}
+            ></img>
+          </span> */}{" "}
+        
+        {/* <img src={bannerMain} style={{width:'50%'}}></img> */}
+        {/* {showVideo ? (
+            <iframe
+              src="https://www.youtube.com/embed/cM_5GI1hyac"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          ) : (
+            <div style={{ color: "whitesmoke", fontWeight: "bold" }}>
+              <span style={{ fontSize: "3rem" }}>WANT BIG IMPACT?</span>
+              <br></br>
+              <span style={{ fontSize: "8rem" }}>THINK</span>
+              <br></br>
+              <span style={{ fontSize: "7rem" }}>BIG.</span>
+            </div>
+          )} */}
+        {/* <a style={{ outline: "none", border: "none" }}>
+            <button
+            className="learn-more-btn"
+              onClick={() => {
+                setShowVideo(!showVideo);
+              }}
+            >
+              Learn More
+            </button>
+          </a> */}
+        {/* </div> */}
+        <div style={{ margin: "10px", textAlign: "center" }}>
+          {" "}
+         
+         
+         
+          <h1
+            style={{
+              fontSize: "3rem",
+              fontWeight: "bold",
+              fontFamily: "fantasy",
+            }}
+          >
+            A broad Variety of Vocational Mentorships
+          </h1>
+          <h5>
+            Choose from multiple online live mentorship with new additions added
+            every month
+          </h5>
+        </div>
+        <div className="card-course-container" style={{marginBlockEnd: 100}}>
+          <div className="card-course">
+            <img
+              src={marketing}
+              style={{ maxWidth: "90%", maxHeight: "200px" }}
+            />
+            <h1>Sales&Marketing </h1>
+            <li>Course Duration: 14 days</li>
+            <li>Course Description</li>
+            <li>Price:₹4000/-</li>
+            <li>By Kunal Khanna</li>
+          </div>
+          <div className="card-course">
+            <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
+            <h1>Web Development </h1>
+            <li>Course Duration: 30 days</li>
+            <li>Course Description</li>
+            <li>Price:₹5000/-</li>
+            <li>By Aakash Bhardwaj</li>
+          </div>
+          <div className="card-course">
+            <img
+              src={finearts}
+              style={{ maxWidth: "90%", maxHeight: "200px" }}
+            />
+            <h1>Fine Arts </h1>
+            <li>Course Duration: 20 days</li>
+            <li>Course Description</li>
+            <li>Price:₹3000/-</li>
+            {/* <li>By XXXXX</li> */}
+          </div>
+          <div className="card-course">
+            <img src={beauty} style={{ maxWidth: "100%" }} />
+            <h1>Beauty and Makeup </h1>
+            <li>Course Duration: 30 days</li>
+            <li>Course Description</li>
+            <li>Price:₹6000/-</li>
+            {/* <li>By </li> */}
+          </div>
+          <div className="card-course">
+            <img src={contentw} style={{ width: "100%", height: 200}} />
+            <h1>Content Writing </h1>
+            <li>Course Duration: 20 days</li>
+            <li>Course Description</li>
+            <li>Price:₹4000/-</li>
+            {/* <li>By XXXX</li> */}
+          </div>
+          
+        </div><h1
+            style={{
+              fontSize: "3rem",
+              fontWeight: "bold",
+              fontFamily: "fantasy",
+              textAlign:'center',
+              color:'red'
+            }}
+          >
+            Our Top Mentors Live
+          </h1>
+        <div onContextMenu={(e)=>{e.preventDefault();}}
+          style={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            flexWrap:'wrap',
+            backgroundColor:'#040C23',
+            justifyContent:'center',
 
-  render() {
-  
-    if(localStorage.getItem('isLoggedIn')){
-      var decoded = jwt_decode(localStorage.getItem('token'));
-    
-      return (
-        <div style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
-          {this.state.showProfile==true?<div className="profile-dispay">
-           <p style={{fontSize:'2rem',fontWeight:'bold'}}>Your Profile</p> 
-          <h1>Welcome {decoded.result.firstName} {decoded.result.lastName}</h1> 
-          <h1>Email: {decoded.result.email}</h1> 
-          <h1>Phone: {decoded.result.Phone}</h1> 
-          <h1>SponsorId: {decoded.result.SponsorId}</h1> 
-          <h1>Your Id: {decoded.result.id}</h1> 
-          <h1>PanCard: {decoded.result.panCard}</h1> 
-          <h1>AadharCard: {decoded.result.AadharCard}</h1> 
-          <h1>Package: {decoded.result.package}</h1> 
-           <button  onClick={()=>{this.setState({showProfile:false})}}>Close</button>
-         </div>:<div> <span style={{display:'flex',flexDirection:'column',textAlign:'center'}}><img src={userImage} onClick={()=>{this.setState({showProfile:true})}} className="profile-page-btn"></img>Profile</span></div>
-       }
-       {decoded.result.email==("maxakash1999@gmail.com") ||('khannakunal31@gmail.com')? <span style={{display:'flex',flexDirection:'column',textAlign:'center'}}>  <img src={admin} className="profile-page-btn" onClick={()=>{this.setState({admin:true});this.getUsers()}}></img>Admin</span>:null}
-       {this.state.admin==true? <Table  striped bordered hover id="userTable"
+
+          }}
+        >
+          {/* <LazyLoad>
+            <HomeScreen />
+          
+          </LazyLoad>
+           */} 
+         <iframe width="350" height="190" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         src="https://www.youtube.com/embed/ZlvuUJbfOrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
-       >
-
-  <thead>
-    <tr>
-   
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Id</th>
-      <th>Email</th>
-      <th>Phone</th>
-      <th>Package</th>
-      <th>SponsorId</th>
-      
-    </tr>
-    
-    
-  </thead>
- 
-  {this.state.allusers && this.state.allusers.length > 0
-            ? this.state.allusers.map((value, index) => {
-              return (
-                <tbody className="userColumn-table">
-                <tr>
-                  <td>{value.firstName}</td>
-                  <td>{value.lastName}</td>
-              
-                  <td>{value.id}</td>
-            <td>{value.email}</td>
+       <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         src="https://www.youtube.com/embed/w0-WaSHzBKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+       <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         src="https://www.youtube.com/embed/KJVast37qcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         src="https://www.youtube.com/embed/KsEH3KUMQaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         src="https://www.youtube.com/embed/o7skAG6QKmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+           {/* <LazyLoad>
            
-            <td>{value.Phone}</td>
-            <td>{value.package}</td>
+         
            
-            <td>{value.SponsorId}</td>
-            <td><button onClick={()=>this.approveOrderProduct(value.id)}>Update Package</button></td>
-                </tr>
-               
-              </tbody>
-                    )
-            })
-            : null}
-       </Table>
-      :null}
-       {localStorage.getItem('isLoggedIn')=='true'?<span style={{display:'flex',flexDirection:'column',textAlign:'center'}}><img src={logOut} id="logOutBtn" onClick={()=>{this.logoutFuncton()}}></img>LogOut</span>:null}   
-      
-       <span style={{display:'flex',flexDirection:'column',textAlign:'center'}}><img src={order} onClick={()=>{ this.props.history.push('/Packages')}} className="profile-page-btn"></img> Order/Buy</span>
-       
-       <span style={{display:'flex',flexDirection:'column',textAlign:'center'}}>  <img src={team} className="profile-page-btn"></img>Downlinks</span>
-       <span style={{display:'flex',flexDirection:'column',textAlign:'center'}}> <img src ={cashback} className="profile-page-btn"></img>Credits</span>
-       
-      
-       </div>
-        )
-    }else{
-      return null
-    }
-    
-    
-
-  
-  }
+           <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={sky_video} 
+          title="Aakash bhardwaj" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>   */}
+          <LazyLoad>  <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={palak_video} 
+          title="Palak bakshi" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>  
+           <LazyLoad> <video width="350" height="200" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+          src={pragya_video} 
+          title="Pragya" 
+        autoPlay
+           loop
+           muted
+         allowfullscreen></video></LazyLoad>  
+        
+        </div>
+        <Aboutus />
+      </div>
+    </LazyLoad>
+  );
 }
-export default Dashboard
