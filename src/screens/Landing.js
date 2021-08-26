@@ -156,15 +156,9 @@ export default function Landing() {
           <Link to="/webDevelopment"> <div className="card-course">
             <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
             <h1>Web Development </h1>
-<<<<<<< HEAD
             <li>Duration: 30 days</li>
             <li>Description</li>
             {/* <li>Price:₹5000/-</li> */}
-=======
-            <li>Course Duration: 25 days</li>
-            <li>Course Description</li>
-            <li>Price:₹5000/-</li>
->>>>>>> a2c4657293c4d06d2e4201463ff54a1dc0c7ccde
             <li>By Aakash Bhardwaj</li>
           </div></Link>
          
@@ -202,18 +196,7 @@ export default function Landing() {
             {/* <li>Price:₹3000/-</li> */}
             {/* <li>By XXXXX</li> */}
           </div>
-<<<<<<< HEAD
        
-=======
-          <div className="card-course">
-            <img src={beauty} style={{ maxWidth: "100%" }} />
-            <h1>Beauty and Makeup </h1>
-            <li>Course Duration: 25 days</li>
-            <li>Course Description</li>
-            <li>Price:₹6000/-</li>
-            {/* <li>By </li> */}
-          </div>
->>>>>>> a2c4657293c4d06d2e4201463ff54a1dc0c7ccde
           <div className="card-course">
             <img src={contentw} style={{ width: "100%", height: 200}} />
             <h1>Content Writing </h1>
