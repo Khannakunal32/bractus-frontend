@@ -33,6 +33,7 @@ import RenewSubscription from "./screens/RenewSubscription";
 import AakashBhardwaj from "./screens/AakashBhardwaj";
 import { useState } from "react";
 import SayashaMahajan from "./screens/SayashaMahajan";
+import PalakBakshi from "./screens/PalakBakshi";
 
 function App(props) {
   const [searchValue, setSearchValue] = useState("");
@@ -222,6 +223,8 @@ function App(props) {
           <Route path="/SayashaMahajan" component={SayashaMahajan}></Route>
           
           <Route path="/webDevelopment" component={AakashBhardwaj}></Route>
+          <Route path="/PalakBakshi" component={PalakBakshi}></Route>
+         
           <Route
             path="/Admin485vb98563vb359bv69485658b598cjhfsdfj"
             component={Admin}

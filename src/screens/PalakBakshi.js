@@ -1,19 +1,20 @@
 import React from "react";
 import banner1 from "../Assets/Images/main.jpg";
 import user from "../Assets/Images/user.png";
-export default function SayashaMahajan() {
+import beauty from "../Assets/Images/beauty.png";
+export default function PalakBakshi() {
   return (
     <div
-      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center",backgroundColor:'#FCD7D1'}}
     >
-      <div style={{ flex: 1, backgroundColor: "#040C23", minHeight: "100vh",color:'white',  border: "5px solid grey", }}>
+      <div style={{ flex: 1, backgroundColor: "#040C23", minHeight: "100vh",color:'white',  border: "5px solid grey",  backgroundImage: `url(${beauty})`,}}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div
             style={{
               flex: 1,
               minHeight: "35vh",
              
-            
+             
             }}
           >
             <ul
@@ -23,10 +24,15 @@ export default function SayashaMahajan() {
                 justifyContent: "center",
                 alignItems: "center",
                 margin: 10,
-                border: "1px solid grey",
+               
                 color:'white',
                 borderRadius:10,
-                padding:4
+                padding:4,
+                fontWeight:'bold',
+                fontSize:'20px',
+                backgroundColor:'#040c23',
+                opacity:'70%'
+               
               }}
             >
               <li>
@@ -35,7 +41,7 @@ export default function SayashaMahajan() {
                   style={{ width: "100px", height: "100px" }}
                 ></img>
               </li>
-              <li>Sayasha Mahajan</li>
+              <li>Palak Bakshi</li>
              
             </ul>
           </div>
@@ -55,7 +61,9 @@ export default function SayashaMahajan() {
                 justifyContent: "space-evenly",
                 alignItems: "center",
                 border: "1px solid grey",
-                borderRadius:10
+                borderRadius:10,
+                backgroundColor:"#040c23",
+                opacity:'70%'
               
               }}
             >
@@ -63,10 +71,10 @@ export default function SayashaMahajan() {
            
            
             
-              <li>Marketing</li>
-              <li>Lead Generation</li>
-              <li>Sales</li>
-              <li>Digital Marketing</li>
+              <li>Makeup Course (Basic)</li>
+              <li>Hair Stylish</li>
+              {/* <li>Sales</li>
+              <li>Digital Marketing</li> */}
               <li>Mail:</li>
             </ul>
           </div>
@@ -77,27 +85,45 @@ export default function SayashaMahajan() {
           <div
             style={{
               flex: 1,
-            
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center',
               minHeight: "35vh",
-              backgroundImage: `url(${banner1})`,
+              backgroundImage: `url(${beauty})`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "100% 350px",
             }}
-          ></div>
+          >  
+          
+           <iframe width="100%" height="100%"  style={{minHeight:'50vh'}}
+           
+          src="https://www.youtube.com/embed/rBYgQ7asOvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+    </div>
           <div style={{ flex: 3,marginLeft:'100px',display:'flex',flexDirection:'column',minHeight: "65vh",maxWidth:'60%' ,justifyContent:"space-evenly",fontWeight:'bold',alignItems:'left',textAlign:'left'}}>
-          <h1>15  Social Media And Business Development</h1>
-          <li><iframe width="80%" src="https://www.youtube.com/embed/KJVast37qcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-          <li><iframe width="80%" src="https://www.youtube.com/embed/9rKWMLI0Vqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-        
-                 <li>This is a course by Sayasha Mahajan which would make you understand,
-              implement and use social media in a productive way to generate and
-               target potential customers for your business. This would help you to </li>
-<li>Achieve branding and marketing goals</li>
-<li>Building conversions, </li>
-<li>Raising brand awareness and positive brand association</li>
-<li>Improving communication and interaction with key audiences</li>
-<li>Go step by step through the course along with strategic implementation side by side to yield better results.</li>
-          </div>
+          <h1>Makeup Course (Basic)</h1>
+               
+          
+<li> Course Duration: 15 days</li>
+<li> Course Description: Makeup Looks to be covered:</li>
+<li> Corporate look (nude eyes)</li>
+<li> Day party look (matte eyes)</li>
+<li> Night party look (glittery eyes)</li>
+<li> Glam look (soft eyes) </li>
+
+<h2>THEORY: </h2>
+<li> Skin prep</li>
+<li> Good products at cheap price</li>
+<li> Product knowledge</li>
+<li> Eyebrow grooming</li>
+
+<h2>Breakout of classes:</h2>
+<li>Day 1 to Day 5: Theory</li>
+<li>Day 6 to Day 13: Mentioned makeup looks to be covered practically</li>
+<li>Day 14 & Day 15: Final examination</li>
+<li> Price: Rs 3000/-</li>
+
+                 </div>
         </div>
       </div>
     </div>

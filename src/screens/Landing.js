@@ -14,8 +14,12 @@ import Aboutus from "./aboutus";
 import aboutus from "./aboutus";
 import HomeScreen from "./HomeScreen";
 import logo from "../Assets/Images/logob.png";
+import socialmediamarketing from "../Assets/Images/social-media-marketing.png";
 import palak_video from "../Assets/video/palak.webm"
 import pragya_video from "../Assets/video/pragya.MOV"
+import { Link } from "react-router-dom";
+
+
 export default function Landing() {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -138,50 +142,67 @@ export default function Landing() {
           </h5>
         </div>
         <div className="card-course-container" style={{marginBlockEnd: 100}}>
-          <div className="card-course">
+          <Link to="/kunalMentorship"> <div className="card-course">
             <img
               src={marketing}
               style={{ maxWidth: "90%", maxHeight: "200px" }}
             />
             <h1>Sales&Marketing </h1>
-            <li>Course Duration: 14 days</li>
-            <li>Course Description</li>
-            <li>Price:₹4000/-</li>
+            <li>Duration: 14 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹4000/-</li> */}
             <li>By Kunal Khanna</li>
-          </div>
-          <div className="card-course">
+          </div></Link>
+          <Link to="/webDevelopment"> <div className="card-course">
             <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
             <h1>Web Development </h1>
-            <li>Course Duration: 30 days</li>
-            <li>Course Description</li>
-            <li>Price:₹5000/-</li>
+            <li>Duration: 30 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹5000/-</li> */}
             <li>By Aakash Bhardwaj</li>
+          </div></Link>
+         
+         
+          <Link to="/SayashaMahajan"> <div className="card-course">
+            <img
+              src={socialmediamarketing}
+              style={{ maxWidth: "90%", maxHeight: "200px" }}
+            />
+            <h1>Social Media And Business Development </h1>
+            <li>Duration: 15 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹3000/-</li> */}
+            <li>By Sayasha Mahajan</li>
+          </div></Link>
+         <Link to="/PalakBakshi">
+         <div className="card-course">
+            <img src={beauty} style={{ maxWidth: "100%" }} />
+            <h1>Beauty and Makeup </h1>
+            <li>Duration: 30 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹6000/-</li> */}
+            <li>By Palak Bakshi </li>
           </div>
+         </Link>
+         
           <div className="card-course">
             <img
               src={finearts}
               style={{ maxWidth: "90%", maxHeight: "200px" }}
             />
             <h1>Fine Arts </h1>
-            <li>Course Duration: 20 days</li>
-            <li>Course Description</li>
-            <li>Price:₹3000/-</li>
+            <li>Duration: 20 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹3000/-</li> */}
             {/* <li>By XXXXX</li> */}
           </div>
-          <div className="card-course">
-            <img src={beauty} style={{ maxWidth: "100%" }} />
-            <h1>Beauty and Makeup </h1>
-            <li>Course Duration: 30 days</li>
-            <li>Course Description</li>
-            <li>Price:₹6000/-</li>
-            {/* <li>By </li> */}
-          </div>
+       
           <div className="card-course">
             <img src={contentw} style={{ width: "100%", height: 200}} />
             <h1>Content Writing </h1>
-            <li>Course Duration: 20 days</li>
-            <li>Course Description</li>
-            <li>Price:₹4000/-</li>
+            <li>Duration: 20 days</li>
+            <li>Description</li>
+            {/* <li>Price:₹4000/-</li> */}
             {/* <li>By XXXX</li> */}
           </div>
           
@@ -214,7 +235,9 @@ export default function Landing() {
           
           </LazyLoad>
            */} 
-         <iframe width="350" height="190" style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe width="350" height="190" 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
+         muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <iframe width="350" height="190" 
          style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
          src="https://www.youtube.com/embed/ZlvuUJbfOrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
