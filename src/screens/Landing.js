@@ -36,7 +36,7 @@ export default function Landing() {
     },
     button: {
       backgroundColor: "#0e71eb",
-      minHeight: "30%",
+      minHeight: "25%",
       color: "#fef0c1",
       width: "150px",
       borderRadius: 15,
@@ -156,9 +156,15 @@ export default function Landing() {
           <Link to="/webDevelopment"> <div className="card-course">
             <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
             <h1>Web Development </h1>
+<<<<<<< HEAD
             <li>Duration: 30 days</li>
             <li>Description</li>
             {/* <li>Price:₹5000/-</li> */}
+=======
+            <li>Course Duration: 25 days</li>
+            <li>Course Description</li>
+            <li>Price:₹5000/-</li>
+>>>>>>> a2c4657293c4d06d2e4201463ff54a1dc0c7ccde
             <li>By Aakash Bhardwaj</li>
           </div></Link>
          
@@ -196,7 +202,18 @@ export default function Landing() {
             {/* <li>Price:₹3000/-</li> */}
             {/* <li>By XXXXX</li> */}
           </div>
+<<<<<<< HEAD
        
+=======
+          <div className="card-course">
+            <img src={beauty} style={{ maxWidth: "100%" }} />
+            <h1>Beauty and Makeup </h1>
+            <li>Course Duration: 25 days</li>
+            <li>Course Description</li>
+            <li>Price:₹6000/-</li>
+            {/* <li>By </li> */}
+          </div>
+>>>>>>> a2c4657293c4d06d2e4201463ff54a1dc0c7ccde
           <div className="card-course">
             <img src={contentw} style={{ width: "100%", height: 200}} />
             <h1>Content Writing </h1>
@@ -226,6 +243,7 @@ export default function Landing() {
             flexWrap:'wrap',
             backgroundColor:'#040C23',
             justifyContent:'center',
+            marginBottom: 80
 
 
           }}
@@ -239,21 +257,22 @@ export default function Landing() {
          style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
          muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25 }} muted 
          src="https://www.youtube.com/embed/ZlvuUJbfOrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
        <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25}} muted 
          src="https://www.youtube.com/embed/w0-WaSHzBKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
        <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25}} muted 
          src="https://www.youtube.com/embed/KJVast37qcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25}} muted 
          src="https://www.youtube.com/embed/KsEH3KUMQaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="350" height="190" 
-         style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} muted 
+         style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25}} muted 
+        //  style={{margin:'10px',borderRadius:'10px'}} muted 
          src="https://www.youtube.com/embed/o7skAG6QKmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
            {/* <LazyLoad>
