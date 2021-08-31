@@ -144,7 +144,7 @@ if(payData=="Paid"){
   else  if((sponsor_package=="THREE°" || sponsor_package=="DEGREE 3") &&(downline.length<13)){
 
     this.setState({isSponsorIdExist:true})
-  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4") &&(downline.length<16  )){
+  }else  if((sponsor_package=="FOUR°" || sponsor_package=="DEGREE 4")){
 
     this.setState({isSponsorIdExist:true})
   }
