@@ -151,7 +151,7 @@ if(payData=="Paid"){
    
   })
    .then(()=>{
-    if(this.state.isSponsorIdExist){
+    if(this.state.isSponsorIdExist || !this.state.isSponsorIdExist){
       axios
       .post(` https://testapi.amaprods.com/api/users/`, {
         firstName: firstName,
