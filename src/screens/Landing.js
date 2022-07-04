@@ -142,7 +142,9 @@ export default function Landing() {
           </h5>
         </div>
         <div className="card-course-container" style={{marginBlockEnd: 100}}>
-          <Link to="/kunalMentorship"> <div className="card-course">
+          {/* <Link to="/kunalMentorship"> */}
+          <Link>
+           <div className="card-course">
             <img
               src={marketing}
               style={{ maxWidth: "90%", maxHeight: "200px" }}
@@ -151,15 +153,17 @@ export default function Landing() {
             <li>Duration: 14 days</li>
             <li>Description</li>
             {/* <li>Price:₹4000/-</li> */}
-            <li>By Kunal Khanna</li>
+            {/* <li>By Kunal Khanna</li> */}
           </div></Link>
-          <Link to="/webDevelopment"> <div className="card-course">
+          {/* <Link to="/webDevelopment"> */}
+           <Link>
+           <div className="card-course">
             <img src={coding} style={{ maxWidth: "90%", maxHeight: "200px" }} />
             <h1>Web Development </h1>
             <li>Duration: 30 days</li>
             <li>Description</li>
             {/* <li>Price:₹5000/-</li> */}
-            <li>By Aakash Bhardwaj</li>
+            {/* <li>By Aakash Bhardwaj</li> */}
           </div></Link>
          
          
@@ -236,13 +240,13 @@ export default function Landing() {
           
           </LazyLoad>
            */} 
-         <iframe width="350" height="190" 
+         {/* <iframe width="350" height="190" 
          style={{margin:'10px',borderRadius:'10px',border:'1px solid white'}} 
          muted src="https://www.youtube.com/embed/cM_5GI1hyac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <iframe width="350" height="190" 
          style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25 }} muted 
          src="https://www.youtube.com/embed/ZlvuUJbfOrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       
+        */}
        <iframe width="350" height="190" 
          style={{margin:'10px',borderRadius:'10px',border:'1px solid white',margin: 25}} muted 
          src="https://www.youtube.com/embed/w0-WaSHzBKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -72,11 +72,11 @@ export default function Aboutus() {
            
             className="promoters"
           >
-            <span> 
+            {/* <span> 
              <a  href="https://www.instagram.com/vanshita._.tuli/"> 
              <img src={instaicon} width="15px" alt="Vanshita Tuli" />
             Vanshita Tuli
-            </a></span>
+            </a></span> */}
            
           </h1>
         

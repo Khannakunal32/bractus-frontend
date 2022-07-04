@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './store';
+// import KunalKhanna from './screens/KunalKhanna/KunalKhanna';
 
 
 ReactDOM.render(
   <Provider store={store}>
   <React.StrictMode>
+  {/* <KunalKhanna /> */}
     <App />
   </React.StrictMode>
   </Provider>,
