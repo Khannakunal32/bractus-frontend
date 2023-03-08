@@ -78,7 +78,17 @@ function App(props) {
               path="/KunalKhanna"
               component={() => {
                 window.location.href =
-                  "https://khannakunal32.github.io/my-personal-site/";
+                  // "https://khannakunal32.github.io/my-personal-site/";
+                  "https://myportfolio-66ca9.web.app/";
+                return null;
+              }}
+            />
+            <Route
+              path="/Olorio"
+              component={() => {
+                window.location.href =
+                  // "https://khannakunal32.github.io/my-personal-site/";
+                  "https://www.olorio.in/";
                 return null;
               }}
             />

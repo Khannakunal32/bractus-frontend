@@ -127,6 +127,7 @@ export default function Header() {
 
               <a href="/aboutus">Know Us</a>
               <a href="/KunalKhanna">Kunal's Portfolio</a>
+              <a href="/Olorio">Olorio</a>
               <a href="/comingsoon">Events</a>
               <a href="/Packages">Services</a>
               <a href="/leaderBoard">Bulletin-offers</a>
@@ -171,8 +172,9 @@ export default function Header() {
             </div>
             <div>
             {/* <a href="/KunalKhanna">Kunal Khanna</a> */}
-            <a href="/KunalKhanna">Kunal Khanna</a>
               <a href="/aboutus">Know Us</a>
+            <a href="/KunalKhanna">Kunal Khanna</a>
+              <a href="/Olorio">Olorio</a>
               {/* <a href="/comingsoon">Events</a> */}
 
               {/* <a href="/leaderBoard">Bulletin-offers</a> */}
