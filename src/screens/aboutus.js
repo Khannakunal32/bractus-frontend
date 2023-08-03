@@ -1,5 +1,7 @@
 import React from "react";
-import instaicon from '../Assets/Images/instagram.svg'
+import instaicon from "../Assets/Images/instagram.svg";
+import { Image } from "react-bootstrap";
+import Iframe from "react-iframe";
 export default function Aboutus() {
   return (
     <div
@@ -21,15 +23,25 @@ export default function Aboutus() {
         >
           HOW AND WHY WE?
         </h1> */}
-  <h1 style={{fontSize:'3rem',fontWeight:'bold',fontFamily:"fantasy",textAlign:'center'}}>WANT BIG IMPACT? THINK BIG.</h1>
-    
-     
+        <h1
+          style={{
+            fontSize: "3rem",
+            fontWeight: "bold",
+            fontFamily: "fantasy",
+            textAlign: "center",
+          }}
+        >
+          WANT BIG IMPACT? THINK BIG.
+        </h1>
+
+
         <p style={{ lineHeight: "30px" }}>
           Bractus- " ALL FOR ONE AND ONE FOR ALL"The way bractus practices is
           one of its kind.Solely a platform for sprouting minds, shaping and
           channelising their abilities to earn. New setting for innovation,
           where you, your skills, your tried-and-true workflows.
         </p>
+        
         <p style={{ lineHeight: "30px" }}>
           WHY BRACTUS? Bractus provides competent successors to former ones,
           establishing doom of ideation and space to monetize your interests.
@@ -68,18 +80,13 @@ export default function Aboutus() {
           capabilities. With us lunge into incredible experience of earning with
           your skills, and under adept guidance of some enormous individualities
           ushering you to the corridor of perfect future .
-          <h1
-           
-            className="promoters"
-          >
+          <h1 className="promoters">
             {/* <span> 
              <a  href="https://www.instagram.com/vanshita._.tuli/"> 
              <img src={instaicon} width="15px" alt="Vanshita Tuli" />
             Vanshita Tuli
             </a></span> */}
-           
           </h1>
-        
         </p>
       </div>
     </div>

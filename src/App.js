@@ -43,6 +43,7 @@ import SayashaMahajan from "./screens/SayashaMahajan";
 import PalakBakshi from "./screens/PalakBakshi";
 import Footer from "./screens/Footer";
 import Header from "./Header";
+import Store from "./screens/store";
 
 function App(props) {
   const [searchValue, setSearchValue] = useState("");
@@ -79,7 +80,8 @@ function App(props) {
               component={() => {
                 window.location.href =
                   // "https://khannakunal32.github.io/my-personal-site/";
-                  "https://myportfolio-66ca9.web.app/";
+                  // "https://myportfolio-66ca9.web.app/";
+                  "https://kunalkhanna.netlify.app/";
                 return null;
               }}
             />
@@ -118,6 +120,7 @@ function App(props) {
 
             <Route path="/webDevelopment" component={AakashBhardwaj}></Route>
             <Route path="/PalakBakshi" component={PalakBakshi}></Route>
+            <Route path="/Store" component={Store}></Route>
 
             <Route
               path="/Admin485vb98563vb359bv69485658b598cjhfsdfj"
